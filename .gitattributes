@@ -1,0 +1,15 @@
+# Set the default behavior, in case people don't have core.autocrlf set
+* text=auto
+
+# Explicitly declare files that should always be converted to LF regardless of platform
+.gitconfig text eol=lf
+*.sh text eol=lf
+*.dotsettings text eol=lf
+
+# Explicitly declare files that should always be converted to CRLF regardless of platform
+*.sln text eol=crlf
+*.proj text eol=crlf
+*.csproj text eol=crlf
+*.vcxproj text eol=crlf
+*.fsproj text eol=crlf
+*.vbproj text eol=crlf
