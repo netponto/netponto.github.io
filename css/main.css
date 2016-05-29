@@ -1,0 +1,53 @@
+body { background:url(../img/bg-body.png) repeat-x top center #e8f7f9; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:62.5%; color:#000000; }
+* { margin:0; padding:0; }
+img { border:0; }
+div.paragraph { margin-bottom:1em; margin-top:0.5em; }
+p { margin-bottom:1em; margin-top:0.5em; }
+a { text-decoration:none; color:#0000ff; }
+a:hover { text-decoration:none; color:#6cc7dc; }
+h1 { font-size:2.5em; font-weight:normal; color:#6f6f6f;margin: 20px 0; }
+h2 { font-size:1.75em; font-weight:normal; color: #000000; margin: 15px 0; }
+#wrapper { margin:0 auto; width:700px; background:#ffffff; font-size:1.20em; }
+#header { height:140px; background:url(../img/netponto-header.png) no-repeat; }
+#menu { height:35px; line-height:35px; background:url(../img/bg-menu.png) repeat-x; padding:0 10px; }
+#content { min-height:400px; padding:15px; text-align:justify; line-height:1.6em; }
+#footer { clear:both; height:100px; background:url(../img/bg-footer.jpg) no-repeat; }
+#menu ul { list-style-type:none; }
+#menu li { float:left; }
+#menu li a { padding:0 15px; display:block; color:#ffffff; margin-right:2px; }
+#menu li a:hover { background:url(../img/bg-menu-hover.png) no-repeat center center; color: #6cc7dc ; }
+div.paragraph ul, div.paragraph ol, div.paragraph li { list-style-position: inside; }
+#gallery { margin: auto; }
+#gallery .gallery-item-gold { float: left; margin-top: 20px; text-align: center; width: 50%; }
+#gallery .gallery-item-silver { float: left; margin-top: 20px; text-align: center; width: 30%; }
+#gallery .gallery-item-bronze { float: left; margin-top: 20px; text-align: center; width: 20%; }
+#gallery img { border: #ffffff; }
+#gallery .gallery-caption { margin-left: 0; }
+.video-gallery {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em 0;
+    list-style: none;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-gallery li {
+    width: 24%;
+    height: 180px;
+    padding: 0px;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+.video-gallery li img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+}
+
+.video-gallery li span {
+    font-size: x-small;
+    margin: 8px;
+    display: block;
+}
