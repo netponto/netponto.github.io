@@ -1,3 +1,8 @@
+#Ignore build and cache files created by Jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
 #Ignore thumbnails created by Windows
 Thumbs.db
 
