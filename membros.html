@@ -1,0 +1,26 @@
+---
+title: "Membros da Comunidade NetPonto"
+permalink: /membros/
+layout: page
+---
+<div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">
+{% assign letters = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" | split: " " %}
+{% for letter in letters %}
+  <h3>{{ letter }}</h3>
+  <ul>
+    {% for member in site.members | sort name %}
+      {% assign first_letter = member.name | truncate: 1, '' | upcase %}
+      {% if letter == first_letter %}
+        <li>
+          <strong><a href="{{ member.url | prepend: site.baseurl }}" title="{{ member.name }}: Membro da Comunidade NetPonto">{{ member.name }}</a></strong>
+
+          {% if member.is_microsoft_mvp %}
+            [<a href="https://mvp.microsoft.com" rel="nofollow" title="Clique para conhecer o programa MVP: Microsoft Most Valuable Professional">MVP</a>]
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <br />
+{% endfor %}
+</div>

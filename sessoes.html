@@ -1,0 +1,12 @@
+---
+title: "Sessões já realizadas"
+permalink: /sessoes/
+layout: page
+---
+{% for session in site.sessions %}
+  <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">
+    <ul>
+      <li><strong><a href="{{ session.url | prepend: site.baseurl }}" title="{{ session.title }}">{{ session.title }}</a></strong><br />Por <a href="http://netponto.org/membro/sergio-oliveira/" title="Clique para ver o perfil de Sérgio Oliveira na Comunidade NetPonto">S&#233;rgio Oliveira</a> em {{ session.date | date: "%d-%m-%Y" }}<br /><br /></li>
+    </ul>
+  </div>
+{% endfor %}

@@ -1,4 +1,3 @@
-# Site settings
 title: NetPonto | A Comunidade .NET em Portugal
 email: contacto@netponto.org
 description: > # this means to ignore newlines until "baseurl:"
@@ -8,11 +7,56 @@ description: > # this means to ignore newlines until "baseurl:"
   de disseminar o conhecimento diferenciado de cada um de seus membros.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://netponto.github.io" # the base hostname & protocol for your site
+relative_permalinks: false
 
-# GitHub Pages settings
 repository: netponto/netponto.github.io
 
-# Build settings
+collections:
+  meetings:
+    output: true
+    permalink: /reunioes/:path/
+  sessions:
+    output: true
+    permalink: /sessoes/:path/
+  events:
+    output: true
+    permalink: /eventos/:path/
+  members:
+    output: true
+    permalink: /membros/:path/
+  revista-programar:
+    output: true
+    permalink: /revista-programar/:path/
+
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: sessions
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member-profile
+  - scope:
+      path: ""
+      type: revista-programar
+    values:
+      layout: page
+
 safe: true
 markdown: kramdown
 highlighter: rouge
@@ -22,38 +66,10 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - serve.sh
 
 show_drafts: false
 future: false
-
-permalink: /:categories/:title/
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "drafts"
-    values:
-      layout: "post"
-      draft: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "_posts/sessoes"
-      type: "posts"
-    values:
-      categories: sessao
 
 gems:
   - jekyll-redirect-from

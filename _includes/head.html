@@ -3,12 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=7"/>
   <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="author" href="{{ "/humans.txt" | prepend: site.baseurl | prepend: site.url }}" />
 {% comment %}
     TODO: Make RSS feed compatible
   <link rel="alternate" type="application/rss+xml" title="NetPonto.org | A Comunidade .NET em Portugal" href="http://netponto.org/feed/" />
 {% endcomment %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="image_src" href="{{ "/css/main.css" | prepend: site.baseurl }}/img/netponto-social.png" />
+  <link rel="image_src" href="{{ site.url | prepend: site.baseurl }}/assets/img/netponto-social.png" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>

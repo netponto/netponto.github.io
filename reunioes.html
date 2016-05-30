@@ -1,0 +1,13 @@
+---
+title: "Reuniões da Comunidade NetPonto"
+permalink: /reunioes/
+---
+{% for post in site.posts %}
+  {% if post.categories contains 'reuniao' %}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">
+      <ul>
+        <li><strong><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></strong><br />Por <a href="http://netponto.org/membro/sergio-oliveira/" title="Clique para ver o perfil de Sérgio Oliveira na Comunidade NetPonto">S&#233;rgio Oliveira</a> em {{ post.date | date: "%d-%m-%Y" }}<br /><br /></li>
+      </ul>
+    </div>
+  {% endif %}
+{% endfor %}
