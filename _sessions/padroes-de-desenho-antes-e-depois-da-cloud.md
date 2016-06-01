@@ -1,9 +1,10 @@
 ---
 title: "Padrões de desenho: antes e depois da cloud"
-date: 2014-12-13 +0100
+date: 2014-12-13
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["pedro-vala"]
+meeting: 2a-community-morning-sharepointpt-netponto
 redirect_from: /sessao/padroes-de-desenho-antes-e-depois-da-cloud/
 ---
 Estamos na era da Cloud e das aplicações híbridas!

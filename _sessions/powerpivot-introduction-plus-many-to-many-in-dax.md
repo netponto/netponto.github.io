@@ -1,9 +1,12 @@
 ---
 title: "PowerPivot: Introduction + Many-To-Many in DAX"
-date: 2012-02-13 +0100
+date: 2012-02-13
 start_time: 19:30:00 +0100
 end_time: 21:30:00 +0100
 speakers: ["ferrarialberto"]
+slides_urls: ["http://www.slideshare.net/netponto/sessao-especial-powerpivot-com-alberto-ferrari"]
+videos_urls: ["http://www.youtube.com/watch?v=TXLJTJ8ycuw"]
+meeting: sessao-especial-netponto-powerpivot-com-alberto-ferrari
 redirect_from: /sessao/powerpivot-introduction-plus-many-to-many-in-dax/
 ---
 The introduction of many to many dimension relationships in SSAS (since 2005) opened new scenarios that can be solved using OLAP cubes. Now, with the introduction of the Vertipaq engine and the DAX programming language, it seems that many-to-many relationships are no longer supported. As we are going to show, this is not true: many-to-many relationships can be leveraged in DAX too, even if this means some deep understanding of the Vertipaq engine and of the DAX programming language.

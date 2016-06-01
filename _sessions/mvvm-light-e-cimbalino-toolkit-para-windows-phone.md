@@ -1,9 +1,11 @@
 ---
 title: "MVVM Light e Cimbalino Toolkit para Windows Phone"
-date: 2014-01-18 +0100
+date: 2014-01-18
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["saramgsilva"]
+slides_urls: ["http://www.slideshare.net/NetPonto/sara-silva-mvvm-light-e-cimbalino-toolkits"]
+meeting: 44a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/mvvm-light-e-cimbalino-toolkit-para-windows-phone/
 ---
 O padrão MVVM é o padrão de desenvolvimento recomendado para aplicações Windows Phone. E para ajudar na implementação desde padrão existem vários toolkits que facilitam o processo de desenvolvimento.

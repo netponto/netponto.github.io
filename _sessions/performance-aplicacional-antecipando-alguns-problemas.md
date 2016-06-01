@@ -1,16 +1,17 @@
 ---
 title: "Performance aplicacional: antecipando alguns problemas"
-date: 2015-04-18 +0100
+date: 2015-04-18
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["nunocaneco"]
+meeting: 53a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/performance-aplicacional-antecipando-alguns-problemas/
 ---
 O Cliente diz:
 
 - A aplicação tem vindo a ficar cada vez mais lenta... O que será?
 - Este ecrã agora está a demorar imenso a carregar
-- O  processo de exportação de dados demorada 15 minutos e agora demora 8  horas a correr o que está a interferir com os outros processos de (...)
+- O processo de exportação de dados demorada 15 minutos e agora demora 8 horas a correr o que está a interferir com os outros processos de (...)
 
 Provavelmente isto já vos aconteceu nos projecto. Com a utilização em ambiente real, a aplicação começa a ficar lenta ou começam mesmo a surgir erros que não ocorriam antes.
 

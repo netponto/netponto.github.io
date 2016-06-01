@@ -1,9 +1,11 @@
 ---
 title: "Team Foundation Server...Muito mais do que um gestor de versões"
-date: 2014-02-22 +0100
+date: 2014-02-22
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["pedrorosa"]
+videos_urls: ["https://www.youtube.com/watch?v=egE8tRqI2-Y"]
+meeting: 45a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/team-foundation-server-muito-mais-do-que-um-gestor-de-versoes/
 ---
 Muitos de nós vemos o TFS como sendo apenas um gestor de versões, mas é muito mais do que isso.

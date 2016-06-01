@@ -1,9 +1,10 @@
 ---
 title: "Introdução ao Nokia Imaging SDK"
-date: 2013-10-19 +0100
+date: 2013-10-19
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["joaocardoso"]
+meeting: 42a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/introducao-ao-nokia-imaging-sdk/
 ---
 Nesta sessão iremos ficar a conhecer o Nokia Imaging SDK. Este SDK está disponível para todos os Windows Phone, não só da Nokia, e permite facilitar o desenvolvimento de aplicações que de tratamento de imagem.

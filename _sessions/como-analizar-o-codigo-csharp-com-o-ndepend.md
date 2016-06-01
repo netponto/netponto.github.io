@@ -1,9 +1,10 @@
 ---
 title: "Como analizar o código C# com o NDepend"
-date: 2015-01-24 +0100
+date: 2015-01-24
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["saramgsilva"]
+meeting: 51a-reuniao-presencial-da-comunidade-netponto-em-local
 redirect_from: /sessao/como-analizar-o-codigo-csharp-com-o-ndepend/
 ---
 Boas práticas no desenvolvimento é o caminho correto para obter boa qualidade no Software produzido, e hoje em dias os programadores, arquitetos e gestores tem cada mais consciência sobre isto. Atualmente existem várias ferramentas para avaliar a qualidade do desenvolvimento de Software, NDepend é uma delas.

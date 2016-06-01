@@ -1,9 +1,11 @@
 ---
 title: "Criando aplicações para Windows Phone 8.1 e Windows 8.1 com o App Studio da Microsoft"
-date: 2014-05-24 +0100
+date: 2014-05-24
 start_time: 16:30:00 +0100
 end_time: 18:00:00 +0100
 speakers: ["saramgsilva"]
+slides_urls: ["http://www.slideshare.net/NetPonto/sara-silva-criando-aplicacoes-para-windows-phone-81-e-windows-81-com-o-app-studio-da-microsoft"]
+meeting: 5a-reuniao-presencial-da-comunidade-netponto-no-porto
 redirect_from: /sessao/criando-aplicacoes-para-windows-phone-8-1-e-windows-8-1-com-o-app-studio-da-microsoft/
 ---
 Já tiveste ideias brilhantes para uma app? Queres colocar isso em prática? Então esta sessão é para ti!

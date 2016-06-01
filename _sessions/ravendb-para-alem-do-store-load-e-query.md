@@ -1,9 +1,10 @@
 ---
 title: "RavenDB para além do Store, Load e Query"
-date: 2014-10-25 +0100
+date: 2014-10-25
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["brunomlopes"]
+meeting: 49a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/ravendb-para-alem-do-store-load-e-query/
 ---
 RavenDB tem evoluido bastante deste a ultima vez que foi apresentado na NetPonto.

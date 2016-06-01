@@ -1,9 +1,11 @@
 ---
 title: "Lock & Load Developers"
-date: 2013-09-21 +0100
+date: 2013-09-21
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["nikoneugebauer"]
+videos_urls: ["http://www.youtube.com/watch?v=X2HafuPyYwo"]
+meeting: 41a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/lock-load-developers/
 ---
 Nesta sessão vamos considerar e aprofundar conhecimento sobre alguns das funcionalidades mais populares de SQL Server, como NoLock, Variables, Functions, Tabelas Temporárias, Encapsulação e Constraints.

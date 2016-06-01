@@ -1,9 +1,10 @@
 ---
 title: "Automatização de tarefas com Gulp"
-date: 2016-04-02 +0100
+date: 2016-04-02
 start_time: 10:00:00 +0100
 end_time: 11:00:00 +0100
 speakers: ["cipriano-freitas"]
+meeting: 10a-reuniao-presencial-da-comunidade-netponto-no-porto
 redirect_from: /sessao/automatizacao-tarefas-com-gulp/
 ---
 Minificar scripts, optimizar imagens, bundling de CSS e verificação de erros no JavaScript. Estas são apenas algumas das preocupações mais comuns que temos ao desenvolver aplicações web.

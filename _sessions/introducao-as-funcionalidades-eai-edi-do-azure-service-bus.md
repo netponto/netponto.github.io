@@ -1,9 +1,11 @@
 ---
 title: "Introdução às funcionalidades EAI/EDI do Azure Service Bus"
-date: 2012-06-09 +0100
+date: 2012-06-09
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["sandro_asp"]
+videos_urls: ["http://www.youtube.com/watch?v=HtEkF1nS5DE"]
+meeting: 5a-reuniao-presencial-da-comunidade-netponto-em-coimbra
 redirect_from: /sessao/introducao-as-funcionalidades-eai-edi-do-azure-service-bus/
 ---
 Dentro da *stack* de integração da Microsoft, tanto o EAI (*Enterprise Application Integration*) como o EDI (*Electronic Data Interchange*) têm sido recorrentemente implementados com a ajuda do BizTalk Server.

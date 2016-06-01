@@ -1,9 +1,10 @@
 ---
 title: "Typescript with Angular 2 in Enterprise Apps"
-date: 2016-01-16 +0100
+date: 2016-01-16
 start_time: 10:00:00 +0100
 end_time: 11:00:00 +0100
 speakers: ["sobreiro-pedro"]
+meeting: 9a-reuniao-presencial-da-comunidade-netponto-no-porto
 redirect_from: /sessao/typescript-with-angular-2/
 ---
 Num ambiente em constante evolução como é a Web, desenvolver aplicações empresariais, destinadas a estar em produção durante décadas, é um enorme risco. A escolha das ferramentas de desenvolvimento pode ter a mesma importância que escolher a pessoa com a qual vamos partilhar o resto das nossas vidas: já pensaram que hoje em dia muitas vezes troca-se mais facilmente de esposo(a) do que se substitui totalmente um sistema empresarial?

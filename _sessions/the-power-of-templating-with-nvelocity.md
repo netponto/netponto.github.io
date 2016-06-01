@@ -1,9 +1,12 @@
 ---
 title: "The power of templating... with NVelocity"
-date: 2013-11-23 +0100
+date: 2013-11-23
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["masterzdran"]
+slides_urls: ["http://www.slideshare.net/NetPonto/the-power-of-templating-with-nvelocity-nuno-cancelo"]
+videos_urls: ["https://www.youtube.com/watch?v=3Nd2mzvyA-I"]
+meeting: 43a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/the-power-of-templating-with-nvelocity/
 ---
 Desde os inicio dos tempos existem padrões de desenho ainda que não tivessem um nome atribuído e com o aparecimento da Internet para o mero utilizador, tornou-se evidente para o programador a importância da utilização de padrões e separar as responsabilidades dos módulos das suas aplicações.

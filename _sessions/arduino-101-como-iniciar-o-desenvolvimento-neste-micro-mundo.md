@@ -1,9 +1,10 @@
 ---
 title: "Arduino 101, Como iniciar o desenvolvimento neste \"micro\" mundo"
-date: 2015-04-18 +0100
+date: 2015-04-18
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["pedrorosa"]
+meeting: 53a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/arduino-101-como-iniciar-o-desenvolvimento-neste-micro-mundo/
 ---
 Já ouviste falar de Arduino, IoT ou de plataformas como netduino, raspberry PI?

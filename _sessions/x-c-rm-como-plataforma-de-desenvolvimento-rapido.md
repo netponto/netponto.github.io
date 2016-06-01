@@ -1,9 +1,11 @@
 ---
 title: "X(C)RM como plataforma de desenvolvimento rápido"
-date: 2013-04-20 +0100
+date: 2013-04-20
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["pedro25495"]
+videos_urls: ["http://www.youtube.com/watch?v=5EzjF2Mw3tA"]
+meeting: 38a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/x-c-rm-como-plataforma-de-desenvolvimento-rapido/
 ---
 Nesta sessão vamos brevemente perceber o que é um sistema CRM (Customer Relationship Management) como o Microsoft CRM Dynamics 2011 na perspectiva do programador, passando pelos principais controlos, funcionalidades e ferramentas.

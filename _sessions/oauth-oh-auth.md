@@ -1,9 +1,10 @@
 ---
 title: "OAuth? Oh... Auth!"
-date: 2015-07-18 +0100
+date: 2015-07-18
 start_time: 12:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["andy"]
+meeting: 55a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/oauth-oh-auth/
 ---
 A autenticação por OAuth, que corre sobre HTTP e HTTPS, permite autenticarum utilizador dum serviço (e.g. uma app) com as credenciais fornecidas porum Identity Provider (e.g. Facebook), sem que sejam fornecidos ao serviço osdados de autenticação (user e password), e permitindo a especificação delimites ao acesso que o serviço tem aos dados do utilizador.

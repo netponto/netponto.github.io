@@ -1,9 +1,10 @@
 ---
 title: "Testes Automáticos em Projectos de Grande Dimensão"
-date: 2015-06-20 +0100
+date: 2015-06-20
 start_time: 10:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["andre-silva"]
+meeting: 54a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/testes-automaticos-em-projectos-de-grande-dimensao/
 ---
 O código está pronto, lindo e funciona na perfeição. Mas eis senão quando um utilizador super-importante na hierarquia da organização tem uma ideia nova à última da hora que impacta todo o código desenvolvido: desde a estrutura da base de dados, passando pelo código específico de negócio até aos contratos de dados que são trocados com outros sistemas. É preciso fazer a alteração o mais depressa possível e de preferência sem estragar nada. E agora?

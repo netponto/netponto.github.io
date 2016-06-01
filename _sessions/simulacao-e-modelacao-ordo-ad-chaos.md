@@ -1,9 +1,10 @@
 ---
 title: "Simulação e modelação: ordo ad chaos"
-date: 2015-10-24 +0100
+date: 2015-10-24
 start_time: 12:00:00 +0100
 end_time: 13:10:00 +0100
 speakers: ["mestre_vieira"]
+meeting: 57a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/simulacao-e-modelacao-ordo-ad-chaos/
 ---
 A mudança está sempre presente no mundo em que vivemos. Estamos sistematicamente a assistir a transformações radicais no mundo, não só a nível tecnológico, mas também social e ambiental, que surgem com um ritmo cada vez mais acelerado.

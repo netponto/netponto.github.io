@@ -1,9 +1,10 @@
 ---
 title: "Dev&Test na cloud com Visual Studio Online e Azure"
-date: 2014-10-25 +0100
+date: 2014-10-25
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["vitortomaz"]
+meeting: 49a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/dev-test-na-cloud-com-visual-studio-online-e-azure/
 ---
 O desenvolvimento e teste de aplicações é cada vez mais realizado na cloud, grande parte devido à economia e agilidade associada.

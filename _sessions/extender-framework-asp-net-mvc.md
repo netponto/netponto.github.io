@@ -1,9 +1,10 @@
 ---
 title: "Estender a Framework ASP.NET MVC"
-date: 2016-02-20 +0100
+date: 2016-02-20
 start_time: 11:30:00 +0100
 end_time: 12:30:00 +0100
 speakers: ["thesaintr"]
+meeting: 1a-reuniao-presencial-da-comunidade-netponto-em-braga
 redirect_from: /sessao/extender-framework-asp-net-mvc/
 ---
 Nesta sessão vamos aprender a personalizar e estender o framework MVC para satisfazer as nossas necessidades.

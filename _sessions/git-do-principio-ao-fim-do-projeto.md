@@ -1,9 +1,10 @@
 ---
 title: "Git do princípio ao fim (do projeto)"
-date: 2013-03-09 +0100
+date: 2013-03-09
 start_time: 14:30:00 +0100
 end_time: 16:00:00 +0100
 speakers: ["brunomlopes"]
+meeting: 3a-reuniao-presencial-da-comunidade-netponto-no-porto
 redirect_from: /sessao/git-do-principio-ao-fim-do-projeto/
 ---
 O objectivo desta apresentação é mostrar à audiência como usar git durante o arco de desenvolvimento de um projeto, desde a primeira linha de código até à entrega final da ultima versão, passando por várias versões, periodos de desenvolvimento e manutenção, e outras tropelias típicas de um processo de desenvolvimento de software.

@@ -1,9 +1,10 @@
 ---
 title: "Operational Analytics"
-date: 2015-07-18 +0100
+date: 2015-07-18
 start_time: 10:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["nikoneugebauer"]
+meeting: 55a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/operational-analytics/
 ---
 SQL Server 2016 traz uma melhoria muito poderosa para todos que pretendem obter dados para Relatórios em tempo real - Operational Analytics.

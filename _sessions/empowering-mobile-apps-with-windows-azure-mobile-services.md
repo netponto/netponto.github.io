@@ -1,9 +1,10 @@
 ---
 title: "Empowering Mobile Apps with Windows Azure Mobile Services"
-date: 2013-01-26 +0100
+date: 2013-01-26
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["vraposo"]
+meeting: 35a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/empowering-mobile-apps-with-windows-azure-mobile-services/
 ---
 Estamos claramente na era das aplicações móveis para consumidores em larga escala e com elevados requisitos de performance e rapidez de desenvolvimento. Por cada aplicação que criamos, estamos recorrentemente a desenvolver suporte para as mesmas coisas, sejam elas mecanismos de autenticação, suporte para Push Notifications, armazenamento estruturado de informação, iada iada iada...

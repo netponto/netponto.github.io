@@ -1,9 +1,10 @@
 ---
 title: "MEF - Give more life to your application"
-date: 2014-07-26 +0100
+date: 2014-07-26
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["masterzdran"]
+meeting: 48a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/mef-give-more-life-to-your-application/
 ---
 O programador é por natureza um "idiota preguiçoso". Junta as suas ideias brilhantes ao seu conhecimento, à sua arte, e desenvolve arquitecturas para reduzir ou mesmo optimizar o trabalho a ser realizado. No fundo pensa "porque ei de fazer à mão algo, se posso por a máquina a fazer por mim".

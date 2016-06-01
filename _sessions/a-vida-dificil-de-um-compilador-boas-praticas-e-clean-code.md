@@ -1,9 +1,10 @@
 ---
 title: "A vida dificil de um compilador - Boas praticas e Clean Code"
-date: 2015-10-24 +0100
+date: 2015-10-24
 start_time: 10:00:00 +0100
 end_time: 11:30:00 +0100
 speakers: ["rms81g"]
+meeting: 57a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/a-vida-dificil-de-um-compilador-boas-praticas-e-clean-code/
 ---
 A apresentação tem como fio condutor a ideia expressa pela famosa citação do Martin Fowler -

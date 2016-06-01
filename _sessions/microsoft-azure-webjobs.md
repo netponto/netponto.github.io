@@ -1,9 +1,11 @@
 ---
 title: "Microsoft Azure WebJobs"
-date: 2014-07-26 +0100
+date: 2014-07-26
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
 speakers: ["vitortomaz"]
+videos_urls: ["https://www.youtube.com/watch?v=JPMWKcfJPbA"]
+meeting: 48a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/microsoft-azure-webjobs/
 ---
 A necessidade de correr pequenas tarefas em background é quase uma constante em todos os projetos, sejam elas recorrentes ou desencadeadas por uma ação/situação específica.
