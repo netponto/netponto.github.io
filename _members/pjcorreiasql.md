@@ -14,3 +14,4 @@ Atualmente é responsável pelo Sistema de Informação que suporta o Programa e
 Trabalha com SQL Server há mais de 13 anos, desde a sua versão 7.0, e especializou-se em segurança e otimização. É também formador de SQL e ensinar é uma das suas paixões.
 
 Em 2012, um ano em que deu bastante enfoque à certificação de competências e aptidões adquiridas, tornou-se o primeiro e único, Microsoft Certified Master - SQL Server em Portugal e obteve também a certificação Certified Ethical Hacker v7.
+

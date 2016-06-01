@@ -12,3 +12,4 @@ Started working from the beginning of his career in SharePoint 2007, mainly exte
 Some years later, entered in the Workflows and BPM SharePoint-based world, developing and supporting these types of solutions.
 
 A while after started leading a SharePoint team of a big Gartner awarded project in the public sector. He is now a vendor in Microsoft, as a Support Engineer.
+

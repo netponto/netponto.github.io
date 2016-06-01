@@ -10,3 +10,4 @@ is_microsoft_mvp: true
 redirect_from: /membro/ricardo-peres/
 ---
 Evangelista Tecnológico na Simplifydigital e Microsoft MVP (IIS/ASP.NET).
+

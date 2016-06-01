@@ -9,3 +9,4 @@ is_microsoft_mvp: true
 redirect_from: /membro/alberto-ferrari/
 ---
 O Alberto Ferrari é especialista em Business Intelligence e Microsoft Most-Valuable Professional (MVP) em SQL Server, orador em conferências internacionais, tais como European PASS Conference e PASS Summit e co-autor de um livro de sucesso de PowerPivot.
+

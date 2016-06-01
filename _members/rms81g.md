@@ -21,3 +21,4 @@ Entre os temas/tecnologias que me fazem passar horas à frente de um ecran estã
 - Windows Phone
 - node.js
 - Angular.js
+

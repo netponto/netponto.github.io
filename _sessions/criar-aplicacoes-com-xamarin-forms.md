@@ -1,0 +1,10 @@
+---
+title: "Criar aplicações com Xamarin Forms"
+date: 2015-07-11 +0100
+start_time: 12:00:00 +0100
+end_time: 13:30:00 +0100
+speakers: ["me"]
+redirect_from: /sessao/criar-aplicacoes-com-xamarin-forms/
+---
+Uma breve introdução sobre acelerar o desenvolvimento de aplicações móveis nativas para iOS, Android e Windows  em C# e Xaml usando a API Xamarin.Forms
+

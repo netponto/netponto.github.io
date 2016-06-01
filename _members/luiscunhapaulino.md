@@ -13,3 +13,4 @@ Tem como tecnologias favoritas maioritariamente as tecnologias Microsoft e Oracl
 Atualmente tem como interesses aprofundar os seus conhecimentos ao nível das plataformas de gestão de estruturas de informação e processos de desenvolvimento como o SCRUM, ITIL v3, CMMI nível 3, e trabalho para futuro obter o BCS Diploma in Business Analysis.
 
 Embora os interesses atuais sejam virados mais para as estruturas de apoio aos processos de desenvolvimento e manutenção de software, continua interessado em acompanhar as evoluções tecnológicas constantes dentro do meio porque acredita qualquer cliente exigirá sempre o que conhece como o há de melhor no mercado simplesmente porque a concorrência empresarial existirá sempre. De uma forma geral interessa-se por metodologias de desenvolvimento e todo o processo de engenharia de software.
+

@@ -8,3 +8,4 @@ gravatar_email_hash: 561a4ac06c6502c6d8e7907fd55510e4
 redirect_from: /membro/ricardo-melo-joia/
 ---
 developer - tento ser a diferença que espero ver no mundo (Mahatma Gandhi)
+

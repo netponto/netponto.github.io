@@ -14,3 +14,4 @@ For the past 15 years he has been architecting and developing solutions for clie
 He enjoys diving into new technologies and then share his experience at conferences and training classes, but what excites him about is work is to help others exploring new frontiers in technology and to become better developers.
 
 His little free-time is spent with his family in a city near the sunny Lisbon, Portugal and building some geek projects.
+

@@ -1,0 +1,12 @@
+---
+title: "Como analizar o código C# com o NDepend"
+date: 2015-01-24 +0100
+start_time: 10:00:00 +0100
+end_time: 11:30:00 +0100
+speakers: ["saramgsilva"]
+redirect_from: /sessao/como-analizar-o-codigo-csharp-com-o-ndepend/
+---
+Boas práticas no desenvolvimento é o caminho correto para obter boa qualidade no Software produzido, e hoje em dias os programadores, arquitetos e gestores tem cada mais consciência sobre isto. Atualmente existem várias ferramentas para avaliar a qualidade do desenvolvimento de Software, NDepend é uma delas.
+
+Nesta sessão a Sara Silva vai explicar em que consiste o NDepend, que tipo de regras suporta, como podemos criar as nossas próprias regras e queries, que relatórios podemos obter e como os devemos analisar, para que desta forma consigamos melhorar o Software que produzimos.
+

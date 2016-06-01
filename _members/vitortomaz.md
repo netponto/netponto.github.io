@@ -11,3 +11,4 @@ redirect_from: /membro/vitor-tomaz/
 Vítor Tomaz fez a sua formação no curso de Engenharia Informática e Computadores do ISEL. Neste momento trabalha como Software Engineer na Safira com especial foco no desenvolvimento de Cloud Solutions.
 
 Tem especial interesse por arquitectura de soluções e cloud computing.
+

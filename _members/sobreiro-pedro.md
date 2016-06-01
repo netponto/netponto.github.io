@@ -9,3 +9,4 @@ O José é Mestre em Engenharia Informática e Computação pela Universidade do
 Faz atualmente parte da fantástica equipa de engenheiros e designers que trabalham na nova interface do cmNavigo, o MES (Manufacturing Execution System) produzido pela Critical Manufacturing. Faz também parte da equipa de core e suporte do cmNavigo.
 
 Quando não está a trabalhar podem encontrá-lo como voluntário no IEEE, onde é atualmente Vice-Presidente do IEEE Portugal, ou a tocar tuba em diversos ensembles no norte de Portugal.
+

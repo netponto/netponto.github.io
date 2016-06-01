@@ -14,3 +14,4 @@ Licenciado em Eng. Informática e de Computadores pelo ISEL, gosto de pensar sou
 Desde do virar do milénio que trabalho na área de tecnologias de informação, onde já assumi as tarefas de helpdesk, suporte aplicaciona, administração de sistemas, analista, programador, etc. O core do meu trabalho tem sido identificar os problemas do sistema, resolve-los e desenhar/desenvolver soluções para reduzir ou eliminar esses problemas.
 
 Em permanente mudança e esfomeado por conhecimento, constantemente procuro as melhores práticas e aprender novas tecnologias. Actualmente estou no ISCTE a tirar o mestrado em Engenharia Informática.
+

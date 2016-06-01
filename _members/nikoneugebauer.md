@@ -11,3 +11,4 @@ redirect_from: /membro/niko-neugebauer/
 Niko Neugebauer é um Consultor da OH22, que possui uma experiência de 20 anos nas áreas IT. SQL Server MVP desde 2011 e apresentador regular nos eventos nacionais e internacionas como SQLSaturday, PASS Summit, SQLBits, SQLRally e Business Analytics, o foco profissional dele é o plataforma de dados da Microsoft.
 
 É o actual líder e fundador da comunidade SQLPort.
+

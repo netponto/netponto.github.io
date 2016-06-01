@@ -1,0 +1,14 @@
+---
+title: "RavenDB para além do Store, Load e Query"
+date: 2014-10-25 +0100
+start_time: 12:00:00 +0100
+end_time: 13:30:00 +0100
+speakers: ["brunomlopes"]
+redirect_from: /sessao/ravendb-para-alem-do-store-load-e-query/
+---
+RavenDB tem evoluido bastante deste a ultima vez que foi apresentado na NetPonto.
+
+Desde o novo management studio feito em HTML5 até todo o trabalho feito para expor dados de monitorização, debug e operações, esta base de dados de documentos continua a evoluir.
+
+Nesta sessão vamos ver algumas das funcionalidades mais avançadas e recentes, como SQL Replication, Streaming API, Changes API, Scripted Index Results e Patching.
+

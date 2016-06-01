@@ -6,3 +6,4 @@ gravatar_email_hash: 1d3e9f6b7017ce2c891f663405494402
 redirect_from: /membro/ricardo-coelho/
 ---
 O Ricardo Coelho é Agile Coach no Porto Tech Center, onde tem como missão ajudar a organização, as equipas e os indivíduos a atingir elevados níveis de energia, produtividade e satisfação.
+

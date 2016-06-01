@@ -14,3 +14,4 @@ Nuno Caneco é licenciado em Engenharia Informática e de Computadores pelo Inst
 Actualmente, desempenha funções de Arquitecto de Software e liderança de equipas de desenvolvimento na área de eTicketing para transportes públicos na Siemens S.A.
 
 Tem como áreas de maior interesse tecnológico os sistemas centrais e aplicações web com especial incidência em tecnologias como ASP.NET MVC, WCF, SQL e *Dependency Injection*.
+
