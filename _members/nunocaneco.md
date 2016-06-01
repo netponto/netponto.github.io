@@ -6,6 +6,7 @@ github_username: nmcc
 twitter_username: nunocaneco
 linkedin_username: nunocaneco
 facebook_username: nuno.caneco
+gravatar_email_hash: 13ddb375e15d9eb98f8d250724c15369
 redirect_from: /membro/nuno-caneco/
 ---
 Nuno Caneco é licenciado em Engenharia Informática e de Computadores pelo Instituto Superior Técnico em Lisboa desde 2003.

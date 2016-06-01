@@ -5,5 +5,6 @@ github_username: rmlalves
 twitter_username: rmlalves
 linkedin_username: rmalves
 facebook_username: rmlalves
+gravatar_email_hash: 96035e3e11af5bfb18154654b4337355
 redirect_from: /membro/ricardo-alves/
 ---

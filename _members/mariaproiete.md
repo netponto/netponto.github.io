@@ -6,5 +6,6 @@ blog_url: http://mariaproiete.com/blogs/office/
 twitter_username: mariaproiete
 linkedin_username: mariaproiete
 facebook_username: maria.proiete
+gravatar_email_hash: b8c228e47827a55426c107d085bde4bd
 redirect_from: /membro/maria-proiete/
 ---

@@ -1,6 +1,7 @@
 ---
 name: Luis Paulino
 member_since: 2013-07-17 17:59:01 +0100
+gravatar_email_hash: c220550d2b586da2b824d0473cac2d1f
 redirect_from: /membro/luis-paulino/
 ---
 Consultor informático com mais de 6 anos de experiência no desenvolvimento de software passou por vários projetos em clientes ligados à Banca, Estado, Saúde, Telecom's e mais recentemente Seguros em particular na Gestão de Averiguação de Sinistros.

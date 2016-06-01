@@ -1,6 +1,7 @@
 ---
 name: José Pedro Silva
 member_since: 2016-01-05 12:18:17 +0100
+gravatar_email_hash: c600784a6adcda4877888d5850dd1fee
 redirect_from: /membro/jose-pedro-silva/
 ---
 O José é Mestre em Engenharia Informática e Computação pela Universidade do Porto e trabalha na Critical Manufacturing desde 2013. Desenvolve aplicações móveis há 5 anos e aplicações empresariais nos últimos 2.

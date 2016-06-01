@@ -4,6 +4,7 @@ member_since: 2014-02-06 01:13:22 +0100
 blog_url: http://www.sql.pt
 twitter_username: pjcorreiasql
 linkedin_username: pjcorreia
+gravatar_email_hash: 5a4cc1ea3e8feb656d819d4c5f6a8691
 redirect_from: /membro/pedro-correia/
 ---
 Pedro Correia (SQL Server MCM) nasceu em 1976 no 265º dia desse ano.

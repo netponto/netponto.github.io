@@ -1,6 +1,7 @@
 ---
 name: Rui Marinho
 member_since: 2015-06-27 09:51:52 +0100
+gravatar_email_hash: 96523af99438b25dd0a362e11ec31021
 redirect_from: /membro/rui-espinho/
 ---
 Programador em várias áreas tecnológicas, o Rui vive em Espinho com a esposa e 2 filhos e trabalha atualmente na Xamarin.

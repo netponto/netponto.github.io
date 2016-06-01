@@ -6,5 +6,6 @@ blog_url: http://mobilestone.net/en/
 github_username: carlosrodrigues
 twitter_username: crodriguespt
 linkedin_username: cmrodrigues
+gravatar_email_hash: 900895871dd6b91cff551bef5ac2c263
 redirect_from: /membro/carlos-rodrigues/
 ---

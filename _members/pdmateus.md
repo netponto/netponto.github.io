@@ -4,6 +4,7 @@ member_since: 2014-06-17 18:59:22 +0100
 blog_url: http://pontodepartilha.blogspot.pt
 twitter_username: pdmateus
 linkedin_username: pedromateus
+gravatar_email_hash: a945a458ce54e24fd1d45351c8860aa5
 redirect_from: /membro/pedro-mateus/
 ---
 Started working from the beginning of his career in SharePoint 2007, mainly extending OOTB using custom code/solutions.

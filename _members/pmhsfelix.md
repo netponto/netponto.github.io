@@ -5,10 +5,14 @@ site_url: http://www.cc.isel.ipl.pt/pessoais/pedrofelix/
 blog_url: http://pfelix.wordpress.com
 github_username: pmhsfelix
 twitter_username: pmhsfelix
+gravatar_email_hash: 1b9f3d52b55233d9b4dec767444b6d77
 redirect_from: /membro/pedro-felix/
 ---
-Pedro Félix é professor no Instituto Superior de Engenharia de Lisboa e membro do [Centro de Cálculo do ISEL](http://www.cc.isel.ipl.pt "Centro de Cálculo do ISEL (CCISEL)"){:rel="nofollow"} ([CCISEL](http://www.cc.isel.ipl.pt "Centro de Cálculo do ISEL (CCISEL)"){:rel="nofollow"}). É também consultor independente, colaborando actualmente com a Rupeal e a equipa do Service Delivery Broker do SAPO.
+Pedro Félix é professor no Instituto Superior de Engenharia de Lisboa e membro do [Centro de Cálculo do ISEL][1]{:rel="nofollow"} ([CCISEL][1]{:rel="nofollow"}). É também consultor independente, colaborando actualmente com a Rupeal e a equipa do Service Delivery Broker do SAPO.
 
 Começou a sua actividade profissional algures nos anos 90, ensinando e desenvolvendo sistemas embebidos usando as linguagens C e assembly do x86. Desde então tem vindo a subir o nível de abstração até chegar à Web. Actualmente as suas áreas de interesse são nos temas das Web APIs, nomeadamente: estilos arquitecturais, modelos de programação, infraestruturas de execução e gestão de identidade e controlo de acessos.
 
 É membro do Web API advisory board e co-autor do livro "Designing Evolvable Web APIs with ASP.NET", a ser publicado pela O'Reilly no final de 2013.
+
+[1]: http://www.cc.isel.ipl.pt "Centro de Cálculo do ISEL (CCISEL)"
+

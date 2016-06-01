@@ -5,5 +5,6 @@ blog_url: http://blogs.msdn.com/b/lam/
 twitter_username: luismartins
 linkedin_username: luisalvesmartins
 facebook_username: luisalvesmartins
+gravatar_email_hash: ecb309109e526ffa79cd56379bbab52e
 redirect_from: /membro/luis-alves-martins/
 ---

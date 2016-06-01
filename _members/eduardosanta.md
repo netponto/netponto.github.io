@@ -6,5 +6,6 @@ blog_url: http://www.google.pt/reader/shared/eduardosanta
 twitter_username: eduardosanta
 linkedin_username: eduardosanta
 facebook_username: eduardo.santa
+gravatar_email_hash: dd1a238d1afa81d57320649a32ccf19e
 redirect_from: /membro/eduardo-santa/
 ---

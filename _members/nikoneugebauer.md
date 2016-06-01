@@ -4,6 +4,7 @@ member_since: 2011-03-15 22:46:33 +0100
 blog_url: http://www.nikoport.com
 twitter_username: nikoneugebauer
 linkedin_username: webcaravela
+gravatar_email_hash: 2fdb6f05d0fcd7ca2d849246d549388c
 is_microsoft_mvp: true
 redirect_from: /membro/niko-neugebauer/
 ---

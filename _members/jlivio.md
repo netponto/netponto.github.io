@@ -6,6 +6,7 @@ blog_url: http://msmvps.com/blogs/officept/
 twitter_username: jlivio
 linkedin_username: jlivio
 facebook_username: jlivio
+gravatar_email_hash: 4c473877f023eb31626a582597254aea
 is_microsoft_mvp: true
 redirect_from: /membro/joao-tito-livio/
 ---

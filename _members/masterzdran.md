@@ -6,6 +6,7 @@ github_username: masterzdran
 twitter_username: masterzdran
 linkedin_username: nunocancelo
 facebook_username: nuno.cancelo
+gravatar_email_hash: 52f55ef964147120ba87147142048137
 redirect_from: /membro/nuno-cancelo/
 ---
 Licenciado em Eng. Informática e de Computadores pelo ISEL, gosto de pensar sou um "Puzzle Solver".

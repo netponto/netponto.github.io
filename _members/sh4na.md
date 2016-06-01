@@ -6,5 +6,6 @@ blog_url: http://blog.worldofcoding.com
 twitter_username: sh4na
 linkedin_username: andreiagaita
 facebook_username: andreia.gaita
+gravatar_email_hash: dc6fa84a4a864f9627e220b716572cba
 redirect_from: /membro/andreia-gaita/
 ---
