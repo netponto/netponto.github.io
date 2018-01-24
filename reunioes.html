@@ -1,13 +1,78 @@
 ---
 title: "Reuniões da Comunidade NetPonto"
 permalink: /reunioes/
+layout: page
 ---
-{% for post in site.posts %}
-  {% if post.categories contains 'reuniao' %}
-    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">
+<h3 style="font-size:1.6em; line-height: 3.1;">Próximas Reuniões</h3>
+{% assign todaysdate = site.time | date: '%s' %}
+  {% for meeting in site.meetings %}
+    {% assign meetingdate = meeting.date | date: '%s' %}
+    {% if meetingdate >= todaysdate %}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
       <ul>
-        <li><strong><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></strong><br />Por <a href="http://netponto.org/membro/sergio-oliveira/" title="Clique para ver o perfil de Sérgio Oliveira na Comunidade NetPonto">S&#233;rgio Oliveira</a> em {{ post.date | date: "%d-%m-%Y" }}<br /><br /></li>
+        <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
       </ul>
     </div>
   {% endif %}
 {% endfor %}
+<hr>
+
+<h3 style="font-size:1.6em; line-height: 3.1;">Reuniões Anteriores</h3>
+
+<h4 style="font-size:1.2em; line-height: 2;">Coimbra</h4>
+{% assign todaysdate = site.time | date: '%s' %}
+  {% for meeting in site.meetings %}
+    {% assign meetingdate = meeting.date | date: '%s' %}
+    {% if meetingdate < todaysdate and meeting.title contains 'Coimbra'%}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<h4 style="font-size:1.2em; line-height: 2;">Lisboa</h4>
+{% assign todaysdate = site.time | date: '%s' %}
+  {% for meeting in site.meetings %}
+    {% assign meetingdate = meeting.date | date: '%s' %}
+    {% if meetingdate < todaysdate and meeting.title contains 'Lisboa'%}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<h4 style="font-size:1.2em; line-height: 2;">Porto</h4>
+{% assign todaysdate = site.time | date: '%s' %}
+  {% for meeting in site.meetings %}
+    {% assign meetingdate = meeting.date | date: '%s' %}
+    {% if meetingdate < todaysdate and meeting.title contains 'Porto'%}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<h4 style="font-size:1.2em; line-height: 2;">Outros Locais</h4>
+{% assign todaysdate = site.time | date: '%s' %}
+  {% for meeting in site.meetings %}
+    {% assign meetingdate = meeting.date | date: '%s' %}
+    {% if meetingdate < todaysdate %}
+    {% unless meeting.title contains 'Coimbra' or meeting.title contains 'Lisboa' or meeting.title contains 'Porto' %}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
+      </ul>
+    </div>
+      {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+  TODO: melhorar o código e talvez criar no front matter um campo com o local da reunião?
+{% endcomment %}
