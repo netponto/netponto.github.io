@@ -9,7 +9,7 @@ layout: default
       <td align="center"><a href="http://www.facebook.com/netponto.org/photos" title="Fotos das reuniões anteriores!" rel="nofollow"><img src="{{ site.baseurl | prepend: site.url }}/assets/img/netponto-fotos.jpg" alt="Fotos"/></a></td>
     </tr>
   </table>
-  Cada um de nóss tem diferentes talentos, e com as dezenas de tecnologias que são lançadas todos os dias, é muito difícil (para não dizer impossível) estar por dentro de tudo, e essa é uma das principais vantagens em fazer parte de uma comunidade de pessoas ligadas à nossa área.<br />
+  Cada um de nós tem diferentes talentos, e com as dezenas de tecnologias que são lançadas todos os dias, é muito difícil (para não dizer impossível) estar por dentro de tudo, e essa é uma das principais vantagens em fazer parte de uma comunidade de pessoas ligadas à nossa área.<br />
   <br />
   Podemos aprender mais, e mais rápido, com as experiências de cada um.
 </div>
@@ -31,13 +31,19 @@ layout: default
     <hr style="background-color:#777777; border:0pt none; color:#777777; height:1px; margin:0 auto; text-align: center; width:100%;" />
     <div style="height: 20px; overflow: hidden; width: 100%;"></div>
 </div>
+  <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Próximas Reuniões:<br /><br />
+    {% assign meetings = site.meetings | sort: 'date' | reverse %}
+      {% for meeting in meetings limit:5 %}
+        {% assign todaysdate = site.time | date: '%s' %}
+        {% assign meetingdate = meeting.date | date: '%s' %}
+        {% if meetingdate >= todaysdate %}
+          <ul>
+            <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
+          </ul>
+      {% endif %}
+    {% endfor %}
 
-<div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Próximas Reuniões:<br /><br />
-  <ul>
-    <li><strong>25-06-2016</strong> - 11&#170; Reuni&#227;o Presencial da Comunidade NetPonto no Porto</li>
-  </ul>
-  <br />
-  <a href="{{ site.baseurl | prepend: site.url }}reunioes/" title="Ver todas as próximas reuniões">Ver todas</a>...
+  <a href="{{ site.baseurl | prepend: site.url }}/reunioes/" title="Ver todas as próximas reuniões">Ver todas</a>...
 </div>
 
 <div>
@@ -59,9 +65,16 @@ layout: default
 </div>
 
 <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Reuniões Anteriores:<br /><br />
-  <ul>
-    <li><a href="{{ site.baseurl | prepend: site.url }}/reuniao/1a-reuniao-presencial-da-comunidade-netponto-em-aveiro/" title="1&#170; Reuni&#227;o Presencial da Comunidade NetPonto em Aveiro">1&#170; Reuni&#227;o Presencial da Comunidade NetPonto em Aveiro</a></li>
-  </ul>
+  {% assign meetings = site.meetings | sort: 'date' | reverse %}
+    {% for meeting in meetings limit:5 %}
+      {% assign todaysdate = site.time | date: '%s' %}
+      {% assign meetingdate = meeting.date | date: '%s' %}
+      {% if meetingdate < todaysdate %}
+        <ul>
+          <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
+        </ul>
+    {% endif %}
+  {% endfor %}
   <br />
   <a href="{{ site.baseurl | prepend: site.url }}/reunioes/" title="Ver todas as reuniões já realizadas">Ver todas</a>...
 </div>
@@ -77,6 +90,12 @@ layout: default
     <li><a href="{{ site.baseurl | prepend: site.url }}/sessao/novidades-seguranca-asp-net-core-1.0/" title="Novidades de seguran&#231;a em ASP.NET Core 1.0">Novidades de seguran&#231;a em ASP.NET Core 1.0</a></li>
   </ul>
   <br />
+  {% for session in site.sessions limit:10 %}
+      <ul>
+        <li><a href="{{ session.url | prepend: site.baseurl }}" title="{{ session.title }}">{{ session.title }}</a></li>
+      </ul>
+  {% endfor %}
+
   <a href="{{ site.baseurl | prepend: site.url }}/sessoes/" title="Ver todas as sessões já realizadas">Ver todas</a>...
 </div>
 
@@ -87,9 +106,11 @@ layout: default
 </div>
 
 <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Membros da Comunidade NetPonto:<br /><br />
-  <ul>
-    <li><a href="{{ site.baseurl | prepend: site.url }}/membro/manuel-costa/" title="Manuel Costa">Manuel Costa</a>  </li>
-  </ul>
+    {% for member in site.members limit:10 %}
+        <ul>
+          <li><a href="{{ member.url | prepend: site.baseurl }}" title="{{ member.title }}">{{ member.title }}</a></li>
+        </ul>
+    {% endfor %}
   <br />
   <a href="{{ site.baseurl | prepend: site.url }}/membros/" title="Ver a lista completa dos membros da Comunidade NetPonto">Ver todos</a>...
 </div>
