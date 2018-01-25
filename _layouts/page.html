@@ -7,3 +7,9 @@ layout: default
 {% endcomment %}
 
 {{ content }}
+
+{% if page.url contains "/reunioes/" %}
+  {% unless page.permalink == "/reunioes/" %}
+    {% include agenda.html %}
+  {% endunless %}
+{% endif %}

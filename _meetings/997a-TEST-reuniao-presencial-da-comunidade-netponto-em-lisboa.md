@@ -3,7 +3,9 @@ title: "997ª TEST- Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2018-01-01
 start_time: 12:00:00 +0100
 end_time: 13:30:00 +0100
-redirect_from:
+sessions: ["Título da 1ª Sessão", "Título da 2ª Sessão"]
+speakers: ["Speaker da 1ª Sessão", "Speaker da 2ª Sessão"]
 local: Lisboa
+redirect_from:
 ---
-APENAS PARA TESTE DAS CIDADES enquanto não há no front matter um campo "local"... apagar na versão final
+APENAS PARA TESTE de campos no front matter que faltam inserir (para conseguir visualizar os dados na pagina)... apagar na versão final
