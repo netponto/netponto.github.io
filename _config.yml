@@ -17,7 +17,7 @@ collections:
     permalink: /reunioes/:path/
   sessions:
     output: true
-    permalink: /sessoes/:path/
+    permalink: /sessoes/:title/
   events:
     output: true
     permalink: /eventos/:path/
