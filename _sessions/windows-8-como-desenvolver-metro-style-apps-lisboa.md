@@ -9,4 +9,3 @@ meeting: 31a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/windows-8-como-desenvolver-metro-style-apps-lisboa/
 ---
 O Windows 8 introduz um novo tipo de aplicações - as Metro style apps - que oferecem uma experiência bastante diferente das aplicações tradicionais Desktop, não apenas do ponto de vista de utilização, mas também do ponto de vista de desenvolvimento, incluindo a possibilidade de desenvolver aplicações em HTML5 com JavaScript, e XAML com C#. Nesta apresentação, o Caio Proiete mostrará como podemos desenvolver aplicações Metro style para o Windows 8 e tirar partido das novas APIs introduzidas com o Windows Runtime (WinRT).
-

@@ -35,12 +35,12 @@ defaults:
       path: ""
       type: meetings
     values:
-      layout: page
+      layout: meeting-pages
   - scope:
       path: ""
       type: sessions
     values:
-      layout: page
+      layout: session-pages
   - scope:
       path: ""
       type: events

@@ -2,14 +2,6 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-{% comment %}
-  TODO: Add 'like' buttons (Facebook, GooglePlus)
-{% endcomment %}
+{% include social-media-buttons.html %}
 
 {{ content }}
-
-{% if page.url contains "/reunioes/" %}
-  {% unless page.permalink == "/reunioes/" %}
-    {% include agenda.html %}
-  {% endunless %}
-{% endif %}
