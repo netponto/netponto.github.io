@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% assign todaysDate = site.time | date: '%s' %}
+{% assign meetings = site.meetings | sort: 'date' | reverse %}
+{% assign sessions = site.sessions | sort: 'date' | reverse %}
+{% assign events = site.events | sort: 'date' | reverse %}
+
 <h1>Bem-vindo(a) à Comunidade NetPonto!</h1>
 <div class="paragraph" style="text-align: left; display: block;">
   A comunidade NetPonto é uma iniciativa independente e sem fins lucrativos, que tem como simples e único objectivo a partilha de conhecimento na área de arquitectura e desenvolvimento de software na plataforma .NET, na tentativa de disseminar o conhecimento diferenciado de cada um de seus membros.<br />
@@ -24,6 +29,13 @@ layout: default
   <ul class="video-gallery">
     <li><a href="{{ site.baseurl | prepend: site.url }}/sessao/introducao-ao-desenvolvimento-agil-usando-scrum/" title="Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum"><img src="http://i1.ytimg.com/vi/707/hqdefault.jpg" alt="Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum" /></a> <span><a href="{{ site.baseurl | prepend: site.url }}/sessao/introducao-ao-desenvolvimento-agil-usando-scrum/" title="Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum">Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum</a></span></li>
   </ul>
+  {% for session in sessions limit:8 %}
+    {% if session.videos_urls != blank %}
+    <ul class="video-gallery">
+      <li>{{ session.title }} - {{ session.videos_urls }}</li>
+    </ul>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <div>
@@ -32,16 +44,14 @@ layout: default
     <div style="height: 20px; overflow: hidden; width: 100%;"></div>
 </div>
   <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Próximas Reuniões:<br /><br />
-    {% assign meetings = site.meetings | sort: 'date' | reverse %}
       {% for meeting in meetings limit:5 %}
-        {% assign todaysdate = site.time | date: '%s' %}
-        {% assign meetingdate = meeting.date | date: '%s' %}
-        {% if meetingdate >= todaysdate %}
+      {% assign meetingDate = meeting.date | date: '%s' %}
+        {% if meetingDate >= todaysDate %}
           <ul>
             <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
           </ul>
-      {% endif %}
-    {% endfor %}
+        {% endif %}
+      {% endfor %}
 
   <a href="{{ site.baseurl | prepend: site.url }}/reunioes/" title="Ver todas as próximas reuniões">Ver todas</a>...
 </div>
@@ -53,7 +63,14 @@ layout: default
 </div>
 
 <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Próximos Eventos que Apoiamos:<br /><br />
-  <span>(em breve)</span>
+  {% for event in events limit:5 %}
+  {% assign eventDate = event.date | date: '%s' %}
+    {% if eventDate >= todaysDate %}
+      <ul>
+        <li><strong>{{ event.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ event.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ event.title }} na Comunidade NetPonto">{{ event.title }}</a></li>
+      </ul>
+    {% endif %}
+  {% endfor %}
   <br />
   <a href="{{ site.baseurl | prepend: site.url }}/eventos/" title="Ver todos os próximos eventos">Ver todos</a>...
 </div>
@@ -65,11 +82,9 @@ layout: default
 </div>
 
 <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Reuniões Anteriores:<br /><br />
-  {% assign meetings = site.meetings | sort: 'date' | reverse %}
     {% for meeting in meetings limit:5 %}
-      {% assign todaysdate = site.time | date: '%s' %}
-      {% assign meetingdate = meeting.date | date: '%s' %}
-      {% if meetingdate < todaysdate %}
+    {% assign meetingDate = meeting.date | date: '%s' %}
+      {% if meetingDate < todaysDate %}
         <ul>
           <li><strong>{{ meeting.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ meeting.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ meeting.title }} na Comunidade NetPonto">{{ meeting.title }}</a></li>
         </ul>

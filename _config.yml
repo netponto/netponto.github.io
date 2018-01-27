@@ -45,7 +45,7 @@ defaults:
       path: ""
       type: events
     values:
-      layout: page
+      layout: event-pages
   - scope:
       path: ""
       type: members
@@ -75,3 +75,8 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
+
+sass:
+  sass_dir: assets
+  style: compressed
+  

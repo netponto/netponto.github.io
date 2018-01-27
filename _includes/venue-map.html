@@ -1,0 +1,11 @@
+<div style="text-align: left;">
+{% assign meeting-venues = site.data.meeting-venues %}
+  {% for meeting-venue in meeting-venues %}
+    {% if page.venue == meeting-venue.id %}
+    <a href="{{ meeting-venue.map-url }}" title="Clique para ampliar o mapa" rel="nofollow">
+      <img src="{{ site.baseurl | prepend: site.url }}/{{ meeting-venue.map-img }}" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 10px; border: none;" alt="localização de {{ meeting-venue.name }}" />
+    </a>
+      {% endif %}
+    {% endfor %}
+    <div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Clique para ampliar o mapa.</div>
+  </div>

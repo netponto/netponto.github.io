@@ -1,0 +1,74 @@
+---
+title: "Eventos que Apoiamos"
+permalink: /eventos/
+layout: page
+---
+{% assign todaysDate = site.time | date: '%s' %}
+<h3 style="font-size:1.6em; line-height: 3.1;">Próximos Eventos</h3>
+  {% for event in site.events %}
+  {% assign eventDate = event.date | date: '%s' %}
+    {% if eventDate >= todaysDate %}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ event.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ event.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ event.title }} na Comunidade NetPonto">{{ event.title }}</a></li>
+      </ul>
+    </div>
+  {% endif %}
+{% endfor %}
+<hr>
+
+<h3 style="font-size:1.6em; line-height: 3.1;">Eventos Anteriores</h3>
+
+<h4 style="font-size:1.2em; line-height: 2;">Coimbra</h4>
+  {% for event in site.events %}
+  {% assign eventDate = event.date | date: '%s' %}
+    {% if eventDate < todaysDate and event.title contains 'Coimbra'%}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ event.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ event.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ event.title }} na Comunidade NetPonto">{{ event.title }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<h4 style="font-size:1.2em; line-height: 2;">Lisboa</h4>
+  {% for event in site.events %}
+  {% assign eventDate = event.date | date: '%s' %}
+    {% if eventDate < todaysDate and event.title contains 'Lisboa'%}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ event.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ event.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ event.title }} na Comunidade NetPonto">{{ event.title }}</a></li>
+      </ul>
+    </div>todaysDate
+    {% endif %}
+{% endfor %}
+
+<h4 style="font-size:1.2em; line-height: 2;">Porto</h4>
+  {% for event in site.events %}
+  {% assign eventDate = event.date | date: '%s' %}
+    {% if eventDate < todaysDate and event.title contains 'Porto'%}
+    <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+      <ul>
+        <li><strong>{{ event.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ event.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ event.title }} na Comunidade NetPonto">{{ event.title }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<h4 style="font-size:1.2em; line-height: 2;">Outros Locais</h4>
+  {% for event in site.events %}
+  {% assign eventDate = event.date | date: '%s' %}
+    {% if eventDate < todaysdate %}
+      {% unless event.title contains 'Coimbra' or event.title contains 'Lisboa' or event.title contains 'Porto' %}
+      <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; line-height: 0.9;">
+        <ul>
+          <li><strong>{{ event.date | date: "%d-%m-%Y" }}</strong> – <a href="{{ event.url | prepend: site.baseurl }}" title="Clique para ver a reunião {{ event.title }} na Comunidade NetPonto">{{ event.title }}</a></li>
+        </ul>
+      </div>
+      {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+  TODO: melhorar o código e talvez criar no front matter um campo com o local da reunião?
+{% endcomment %}

@@ -1,0 +1,41 @@
+- id: microsoft
+  name: Microsoft
+  url: https://www.microsoft.com/
+  img-gold: assets/img/patrocinador/logo-microsoft-gold-2012.png
+  img-silver: assets/img/patrocinador/logo-microsoft-silver-2012.png
+  img-bronze:
+
+- id: "novabase"
+  name: NovaBase
+  url: http://www.novabase.pt/
+  img-gold: assets/img/patrocinador/logo-novabase-gold.png
+  img-silver:
+  img-bronze:
+
+- id: "redgate"
+  name: Redgate
+  url: http://www.red-gate.com/
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-redgate-silver.png
+  img-bronze: assets/img/patrocinador/logo-redgate-bronze.png
+
+- id: "telerik"
+  name: Telerik
+  url: https://www.telerik.com/
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-telerik-silver.png
+  img-bronze:
+
+- id: "ciclo"
+  name: CICLO
+  url: https://www.ciclo.pt/
+  img-gold: assets/img/patrocinador/logo-ciclo-gold.png
+  img-silver: assets/img/patrocinador/logo-ciclo-silver.png
+  img-bronze:
+
+- id: "ist"
+  name: Instituto Superior Técnico
+  url: https://tecnico.ulisboa.pt/
+  img-gold: assets/img/patrocinador/logo-ist-gold.png
+  img-silver:
+  img-bronze:

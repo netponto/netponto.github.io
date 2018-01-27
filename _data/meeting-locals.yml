@@ -1,10 +1,9 @@
-local:
-  - Aveiro
-  - Braga
-  - Coimbra
-  - Leiria
-  - Lisboa
-  - Porto
-  - Porto Salvo
-  - Viana do Castelo
-  - Vila Real
+- city: Aveiro
+- city: Braga
+- city: Coimbra
+- city: Leiria
+- city: Lisboa
+- city: Porto
+- city: Porto Salvo
+- city: Viana do Castelo
+- city: Vila Real

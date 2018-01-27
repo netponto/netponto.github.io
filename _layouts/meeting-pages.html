@@ -7,40 +7,15 @@ layout: default
 {{ content }}
 
 <h2>Agenda</h2>
-{% include agenda.html %}
+{% include meeting-agenda.html %}
 
 <hr>
 
 <h2>Local</h2>
-<address>
-  <p><strong>{{ page.local }}</strong></p>
-  <p>{{ page.street }}</p>
-  <p>{{ page.zip-code }} {{ page.city }}</p>
-</address>
+{% include venue-address.html %}
 
-{% comment %}
-  TODO:
-  1) resolver a questão do mapa ser dinamico em relação à morada
-  2) criar uma solucão para os spounsers
-{% endcomment %}
-<div style="text-align: left;">
-  <a href="http://www.google.pt/maps?q=Rua+do+Fogo+de+Santelmo,+Lote+2.07.02+1990-110&amp;hl=pt-PT&amp;hnear=R.+Fogo+de+Santelmo,+Santa+Maria+dos+Olivais,+1990+Lisboa&amp;t=m&amp;z=16&amp;iwloc=A" title="Clique para ampliar o mapa" rel="nofollow">
-    <img src="http://netponto.org/Content/uploads/localizacao/mapa-microsoft-lisboa.png" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 10px; border: none;" alt="" />
-  </a>
-  <div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Clique para ampliar o mapa.</div>
-</div>
+{% include venue-map.html %}
 
 <hr>
 
-<h2>Patrocinador "Gold"</h2>
-  <img src="{{ site.url }}/{{ page.gold-spouser | first }}" alt="logo do spounser">
-<hr>
-
-<h2>Patrocinador "silver"</h2>
-  <img src="{{ site.url }}/{{ page.silver-spouser | first }}" alt="logo do spounser">
-  <img src="{{ site.url }}/{{ page.silver-spouser | last }}" alt="logo do spounser">
-<hr>
-
-<h2>Patrocinador "Bronze"</h2>
-  <img src="{{ site.url }}/{{ page.bronze-spouser | first }}" alt="logo do spounser">
-  <img src="{{ site.url }}/{{ page.bronze-spouser | last }}" alt="logo do spounser">
+{% include meeting-sponsors.html %}

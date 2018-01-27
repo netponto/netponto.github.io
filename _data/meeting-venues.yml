@@ -1,0 +1,26 @@
+- id: microsoft
+  name: Microsoft Portugal
+  room: Auditório
+  street: Rua do Fogo de Santelmo, Lote 2.07.02
+  zip-code: 1990-110
+  city: Lisboa
+  map-url: http://www.google.pt/maps?q=Rua+do+Fogo+de+Santelmo,+Lote+2.07.02+1990-110&amp;hl=pt-PT&amp;hnear=R.+Fogo+de+Santelmo,+Santa+Maria+dos+Olivais,+1990+Lisboa&amp;t=m&amp;z=16&amp;iwloc=A
+  map-img: assets/img/localizacao/mapa-microsoft-lisboa.png
+
+- id: novabase
+  name: NovaBase
+  room: Auditório
+  street: Av. D. João II, Lote 1.03.2.3, Parque das Nações
+  zip-code: 1998-031
+  city: Lisboa
+  map-url: https://www.google.pt/maps/place/Novabase/@38.765888,-9.097951,18z/data=!4m5!3m4!1s0xd193188e7b43383:0xe44298fa21b5486f!8m2!3d38.7652154!4d-9.0975138?hl=pt-PT
+  map-img: assets/img/localizacao/mapa-novabase.png
+
+- id: sana-hotel
+  name: SANA Reno Hotel
+  room: Sala Danubio II
+  street: Avenida Duque D'Ávila, 195
+  zip-code: 1050-082
+  city: Lisboa
+  map-url: https://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Avenida+Duque+D%C2%B4%C3%81vila,+n%C2%BA+195,+1050-082+Lisboa&sll=37.0625,-95.677068&sspn=39.184175,92.724609&ie=UTF8&ll=38.735825,-9.146547&spn=0.00944,0.022638&z=16&iwloc=A
+  map-img: assets/img/localizacao/mapa-sana.png
