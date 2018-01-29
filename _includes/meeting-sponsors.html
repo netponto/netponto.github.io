@@ -1,18 +1,9 @@
 <h2>Patrocinador "Gold"</h2>
-{% assign meeting-sponsors = site.data.sponsors-list %}
-  {% for meeting-sponsor in meeting-sponsors %}
-    {% if page.gold-sponsor[0] == meeting-sponsor.id and page.gold-sponsor[0] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-gold }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.gold-sponsor[1] == meeting-sponsor.id == meeting-sponsor.id and page.gold-sponsor[1] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-gold }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.gold-sponsor[2] == meeting-sponsor.id == meeting-sponsor.id and page.gold-sponsor[2] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-gold }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.gold-sponsor[3] == meeting-sponsor.id == meeting-sponsor.id and page.gold-sponsor[3] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-gold }}" alt="logo de meeting-sponsor.name">
-    {% else %}
+{% for meeting-sponsor in page.gold-sponsor %}
+  {% assign sponsor = site.data.sponsors-list[meeting-sponsor] %}
+  <img src="{{ site.url }}/{{ sponsor.img-gold }}" alt="logo de {{ sponsor.name }}">
 
-    {% endif %}
-  {% endfor %}
+{% endfor %}
 
 <hr>
 
