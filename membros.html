@@ -13,10 +13,7 @@ layout: page
       {% if letter == first_letter %}
         <li>
           <strong><a href="{{ member.url | prepend: site.baseurl }}" title="{{ member.name }}: Membro da Comunidade NetPonto">{{ member.name }}</a></strong>
-
-          {% if member.is_microsoft_mvp %}
-            [<a href="https://mvp.microsoft.com" rel="nofollow" title="Clique para conhecer o programa MVP: Microsoft Most Valuable Professional">MVP</a>]
-          {% endif %}
+            {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
         </li>
       {% endif %}
     {% endfor %}

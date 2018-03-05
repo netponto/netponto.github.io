@@ -13,7 +13,7 @@ layout: default
   {% assign speakers = site.members %}
     {% for speaker in speakers %}
       {% if page.name == speaker.name %}
-        {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+        {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
       {% endif %}
     {% endfor %}
 </h2>

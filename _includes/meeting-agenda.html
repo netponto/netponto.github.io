@@ -10,7 +10,7 @@
   {% assign sessions = site.sessions | sort: 'start_time' %}
     {% for session in sessions %}
       <!-- First session -->
-      {% if page.sessions[0] == session.title and page.sessions[0] != blank %}
+      {% if page.sessions[0] == session.slug and page.sessions[0] != blank %}
         <tr>
           <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
           <td nowrap="true">&nbsp;-&nbsp;</td>
@@ -20,11 +20,11 @@
               {% for speaker in speakers %}
                 {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
                 {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
               {% endfor %}
           </td>
@@ -47,7 +47,7 @@
       {% endif %}
 
       <!-- Second session -->
-      {% if page.sessions[1] == session.title and page.sessions[1] != blank %}
+      {% if page.sessions[1] == session.slug and page.sessions[1] != blank %}
         <tr>
           <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
           <td nowrap="true">&nbsp;-&nbsp;</td>
@@ -57,11 +57,11 @@
               {% for speaker in speakers %}
                 {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
                 {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
               {% endfor %}
           </td>
@@ -84,7 +84,7 @@
         {% endif %}
 
       <!-- Third session -->
-      {% if page.sessions[2] == session.title and page.sessions[2] != blank %}
+      {% if page.sessions[2] == session.slug and page.sessions[2] != blank %}
         <tr>
           <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
           <td nowrap="true">&nbsp;-&nbsp;</td>
@@ -94,11 +94,11 @@
               {% for speaker in speakers %}
                 {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
                 {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
               {% endfor %}
           </td>
@@ -121,7 +121,7 @@
         {% endif %}
 
       <!-- Forth session -->
-      {% if page.sessions[3] == session.title and page.sessions[3] != blank %}
+      {% if page.sessions[3] == session.slug and page.sessions[3] != blank %}
         <tr>
           <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
           <td nowrap="true">&nbsp;-&nbsp;</td>
@@ -131,11 +131,11 @@
               {% for speaker in speakers %}
                 {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
                 {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
               {% endfor %}
           </td>
@@ -158,7 +158,7 @@
         {% endif %}
 
       <!-- Fifht session -->
-      {% if page.sessions[4] == session.title and page.sessions[4] != blank %}
+      {% if page.sessions[4] == session.slug and page.sessions[4] != blank %}
         <tr>
           <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
           <td nowrap="true">&nbsp;-&nbsp;</td>
@@ -168,11 +168,11 @@
               {% for speaker in speakers %}
                 {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
                 {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
                 <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
-                  {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+                  {% include _conditions/if-speaker-is-microsoft-mvp-or-msft.html %}
                 {% endif %}
               {% endfor %}
           </td>
