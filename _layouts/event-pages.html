@@ -6,7 +6,7 @@ layout: default
 
 
 <div class="paragraph" style="text-align: left; display: block;">
-  <img src="{{ site.baseurl | prepend: site.url }}/{{ page.img }}" alt="UX-LX" align="left" style="padding-right:15px" />      
+  <img src="{{ site.baseurl | prepend: site.url }}/{{ page.img }}" alt="UX-LX" align="left" style="padding-right:15px" />
   {{ content }}
 </div>
 
@@ -19,6 +19,6 @@ layout: default
 
 <h2>Data & Local</h2>
 {{ page.date | date_to_long_string }}
-{% include venue-address.html %}
+{% include meeting-venue-address.html %}
 
-{% include venue-map.html %}
+{% include meeting-venue-map.html %}

@@ -1,55 +1,181 @@
-{% comment %}
-  TODO:
-  1) criar no front matter das reuniões as sessões e os speakers
-  2) resolver o problema do URL de cada sessão e speaker (tem que ser |first ou last e também handleize)
-  3) Arranjar forma de inserir o texto de cada sessão
-  5) Ver que fazer quando há horários distintos
-{% endcomment %}
-
 <div class="paragraph" style="text-align: left; display: block;">
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-        <td nowrap="true">09:45</td>
-        <td nowrap="true">&nbsp;-&nbsp;</td>
-        <td width="100%"><strong>Recep&#231;&#227;o dos participantes</strong></td>
+      <!-- Assumption: every meeting starts with the participants reception -->
+      <td nowrap="true">{{ page.start_time | date: "%R" }}</td>
+      <td nowrap="true">&nbsp;-&nbsp;</td>
+      <td width="100%"><strong>Recepção dos participantes</strong></td>
     </tr>
-    <tr>
-        <td nowrap="true">10:00</td>
-        <td nowrap="true">&nbsp;-&nbsp;</td>
-            <td width="100%">
-                <strong><a href="{{ site.baseurl }}/sessoes/{{ page.sessions | first }}"  title="{{ page.sessions | first }}">{{ page.sessions | first }}</a></strong> - <a href="{{ site.baseurl }}/membros/{{ page.speakers | first }}" title="Clique para ver o perfil de {{ page.speakers | first }} na Comunidade NetPonto">{{ page.speakers | first }}</a>
-            </td>
-    </tr>
+  {% assign sessions = site.sessions | sort: 'start_time' %}
+    {% for session in sessions %}
+      <!-- First session -->
+      {% if page.sessions[0] == session.title and page.sessions[0] != blank %}
+        <tr>
+          <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
+          <td nowrap="true">&nbsp;-&nbsp;</td>
+          <td width="100%">
+            <strong><a href="{{ site.baseurl }}/sessoes/{{ session.slug }}"  title="{{ session.title }}">{{ session.title }}</a></strong> -
+            {% assign speakers = site.members %}
+              {% for speaker in speakers %}
+                {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+                {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+              {% endfor %}
+          </td>
+        </tr>
+        <tr>
+          <td nowrap="true">&nbsp;</td>
+          <td nowrap="true">&nbsp;</td>
+          <td width="100%"><p>{{ session.content }}</p></td>
+        </tr>
+        <!-- If it's the last session will not be a coffebreak after -->
+        {% if page.sessions[1] != blank %}
+        <tr>
+          <td nowrap="true">{{ session.end_time | date: "%R" }}</td>
+          <td nowrap="true">&nbsp;-&nbsp;</td>
+          <td width="100%"><strong>Coffee Break</strong></td>
+        </tr>
+        {% endif %}
+      {% endif %}
+
+      <!-- Second session -->
+      {% if page.sessions[1] == session.title and page.sessions[1] != blank %}
+        <tr>
+          <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
+          <td nowrap="true">&nbsp;-&nbsp;</td>
+          <td width="100%">
+            <strong><a href="{{ site.baseurl }}/sessoes/{{ session.slug }}"  title="{{ session.title }}">{{ session.title }}</a></strong> -
+            {% assign speakers = site.members %}
+              {% for speaker in speakers %}
+                {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+                {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+              {% endfor %}
+          </td>
+        </tr>
         <tr>
             <td nowrap="true">&nbsp;</td>
             <td nowrap="true">&nbsp;</td>
-            <td width="100%"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p></td>
+            <td width="100%"><p>{{ session.content }}</p></td>
         </tr>
-    <tr>
-        <td nowrap="true">11:00</td>
-        <td nowrap="true">&nbsp;-&nbsp;</td>
+          <!-- If it's the last session will not be a coffebreak after -->
+          {% if page.sessions[2] != blank %}
+          <tr>
+            <td nowrap="true">{{ session.end_time | date: "%R" }}</td>
+            <td nowrap="true">&nbsp;-&nbsp;</td>
             <td width="100%"><strong>Coffee Break</strong></td>
-    </tr>
-    <tr>
-        <td nowrap="true">11:30</td>
-        <td nowrap="true">&nbsp;-&nbsp;</td>
-            <td width="100%">
-                <strong><a href="{{ site.baseurl }}/sessoes/{{ page.sessions | last }}"  title="{{ page.sessions | last }}">{{ page.sessions | last }}</a></strong> - <a href="{{ site.baseurl }}/membros/{{ page.speakers | last }}" title="Clique para ver o perfil de {{ page.speakers | last }} na Comunidade NetPonto">{{ page.speakers | last }}</a>
-            </td>
-    </tr>
+          </tr>
+          {% endif %}
+        {% endif %}
+
+      <!-- Third session -->
+      {% if page.sessions[2] == session.title and page.sessions[2] != blank %}
+        <tr>
+          <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
+          <td nowrap="true">&nbsp;-&nbsp;</td>
+          <td width="100%">
+            <strong><a href="{{ site.baseurl }}/sessoes/{{ session.slug }}"  title="{{ session.title }}">{{ session.title }}</a></strong> -
+            {% assign speakers = site.members %}
+              {% for speaker in speakers %}
+                {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+                {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+              {% endfor %}
+          </td>
+        </tr>
         <tr>
             <td nowrap="true">&nbsp;</td>
             <td nowrap="true">&nbsp;</td>
-            <td width="100%"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p></td>
+            <td width="100%"><p>{{ session.content }}</p></td>
         </tr>
+          <!-- If it's the last session will not be a coffebreak after -->
+          {% if page.sessions[3] != blank %}
+          <tr>
+            <td nowrap="true">{{ session.end_time | date: "%R" }}</td>
+            <td nowrap="true">&nbsp;-&nbsp;</td>
+            <td width="100%"><strong>Coffee Break</strong></td>
+          </tr>
+          {% endif %}
+        {% endif %}
+
+      <!-- Forth session -->
+      {% if page.sessions[3] == session.title and page.sessions[3] != blank %}
+        <tr>
+          <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
+          <td nowrap="true">&nbsp;-&nbsp;</td>
+          <td width="100%">
+            <strong><a href="{{ site.baseurl }}/sessoes/{{ session.slug }}"  title="{{ session.title }}">{{ session.title }}</a></strong> -
+            {% assign speakers = site.members %}
+              {% for speaker in speakers %}
+                {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+                {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+              {% endfor %}
+          </td>
+        </tr>
+        <tr>
+            <td nowrap="true">&nbsp;</td>
+            <td nowrap="true">&nbsp;</td>
+            <td width="100%"><p>{{ session.content }}</p></td>
+        </tr>
+          <!-- If it's the last session will not be a coffebreak after -->
+          {% if page.sessions[4] != blank %}
+          <tr>
+            <td nowrap="true">{{ session.end_time | date: "%R" }}</td>
+            <td nowrap="true">&nbsp;-&nbsp;</td>
+            <td width="100%"><strong>Coffee Break</strong></td>
+          </tr>
+          {% endif %}
+        {% endif %}
+
+      <!-- Fifht session -->
+      {% if page.sessions[4] == session.title and page.sessions[4] != blank %}
+        <tr>
+          <td nowrap="true">{{ session.start_time | date: "%R" }}</td>
+          <td nowrap="true">&nbsp;-&nbsp;</td>
+          <td width="100%">
+            <strong><a href="{{ site.baseurl }}/sessoes/{{ session.slug }}"  title="{{ session.title }}">{{ session.title }}</a></strong> -
+            {% assign speakers = site.members %}
+              {% for speaker in speakers %}
+                {% if session.speakers[0] == speaker.slug and session.speakers[0] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+                {% if session.speakers[1] == speaker.slug and session.speakers[1] != blank %}
+                <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+                {% endif %}
+              {% endfor %}
+          </td>
+        </tr>
+        <tr>
+            <td nowrap="true">&nbsp;</td>
+            <td nowrap="true">&nbsp;</td>
+            <td width="100%"><p>{{ session.content }}</p></td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+
+    <!-- Assumption: every meeting ends with the Discussion Panel and Prize Draw -->
     <tr>
-        <td nowrap="true">12:30</td>
-        <td nowrap="true">&nbsp;-&nbsp;</td>
-            <td width="100%"><strong>Painel de Discuss&#227;o e Sorteio de Pr&#233;mios</strong></td>
+      <td nowrap="true">{{ page.end_time | date: "%R" }}</td>
+      <td nowrap="true">&nbsp;-&nbsp;</td>
+      <td width="100%"><strong>Painel de Discussão e Sorteio de Prémios</strong></td>
     </tr>
   </tbody>
 </table>
 </div>
 
 <div class="paragraph" style="text-align: left; display: block;">Nota: Ao final da reunião, escolhemos um restaurante próximo e fazemos um almoço em grupo para continuar o convívio e aproximar as pessoas. A participação é opcional.</div>
+<br><br/>
