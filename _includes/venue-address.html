@@ -1,14 +1,15 @@
-{% assign meeting-venues = site.data.meeting-venues %}
-  {% for meeting-venue in meeting-venues %}
-    {% if page.venue == meeting-venue.id %}
+{% assign meetingVenues = site.data.meeting-venues %}
+  {% for meetingVenue in meetingVenues %}
+    {% if page.venue == meetingVenue.id %}
     <address class="paragraph" style="text-align: left; display: block; font-size:1em; line-height: 0.5;">
-      <p><strong>{{ meeting-venue.name }}</strong>
-        {% if meeting-venue.room != blank %}
-        – {{ meeting-venue.room }}
+      <p><strong>{{ meetingVenue.name }}</strong>
+        {% if meetingVenue.room != blank %}
+        <span>– {{ meetingVenue.room }}</span>
         {% endif %}
       </p>
-      <p>{{ meeting-venue.street }}</p>
-      <p>{{ meeting-venue.zip-code }} {{ meeting-venue.city }}</p>
+      <p>{{ meetingVenue.street }}</p>
+      <p>{{ meetingVenue.zip_code }} {{ meetingVenue.city }}</p>
+      <p>{{ meetingVenue.country }}</p>
     </address>
     {% endif %}
   {% endfor %}

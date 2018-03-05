@@ -6,7 +6,7 @@ end_time: 13:30:00 +0100
 sessions: ["Título da 2ª Sessão", "Título da 2ª Sessão"]
 speakers: ["Speaker da 1ª Sessão", "Speaker da 2ª Sessão"]
 city: Lisboa
-venue: microsoft
+venue: microsoft-lx
 img: assets/img/evento/ux-lx-lisboa.png
 redirect_from:
 ---

@@ -1,42 +1,61 @@
+{% assign meetingSporsors = site.data.sponsors-list %}
 <h2>Patrocinador "Gold"</h2>
-{% for meeting-sponsor in page.gold-sponsor %}
-  {% assign sponsor = site.data.sponsors-list[meeting-sponsor] %}
-  <img src="{{ site.url }}/{{ sponsor.img-gold }}" alt="logo de {{ sponsor.name }}">
-
-{% endfor %}
-
-<hr>
-
-<h2>Patrocinador "silver"</h2>
-{% assign meeting-sponsors = site.data.sponsors-list %}
-  {% for meeting-sponsor in meeting-sponsors %}
-    {% if page.silver-sponsor[0] == meeting-sponsor.id and page.silver-sponsor[0] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-silver }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.silver-sponsor[1] == meeting-sponsor.id == meeting-sponsor.id and page.silver-sponsor[1] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-silver }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.silver-sponsor[2] == meeting-sponsor.id == meeting-sponsor.id and page.silver-sponsor[2] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-silver }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.silver-sponsor[3] == meeting-sponsor.id == meeting-sponsor.id and page.silver-sponsor[3] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-silver }}" alt="logo de meeting-sponsor.name">
-    {% else %}
-
+  {% for sporsor in meetingSporsors %}
+    {% if page.gold-sponsor[0] == sporsor.id and page.gold-sponsor[0] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-gold }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.gold-sponsor[1] == sporsor.id and page.gold-sponsor[1] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-gold }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.gold-sponsor[2] == sporsor.id and page.gold-sponsor[2] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-gold }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.gold-sponsor[3] == sporsor.id and page.gold-sponsor[3] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-gold }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.gold-sponsor[4] == sporsor.id and page.gold-sponsor[4] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-gold }}" alt="logo de {{ sporsor.name }}">
     {% endif %}
   {% endfor %}
-
 <hr>
+
+<h2>Patrocinador "Silver"</h2>
+  {% for sporsor in meetingSporsors %}
+    {% if page.silver-sponsor[0] == sporsor.id and page.silver-sponsor[0] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-silver }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.silver-sponsor[1] == sporsor.id and page.silver-sponsor[1] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-silver }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.silver-sponsor[2] == sporsor.id and page.silver-sponsor[2] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-silver }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.silver-sponsor[3] == sporsor.id and page.silver-sponsor[3] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-silver }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.silver-sponsor[4] == sporsor.id and page.silver-sponsor[4] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-silver }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+  {% endfor %}
+<hr>
+
 
 <h2>Patrocinador "Bronze"</h2>
-{% assign meeting-sponsors = site.data.sponsors-list %}
-  {% for meeting-sponsor in meeting-sponsors %}
-    {% if page.bronze-sponsor[0] == meeting-sponsor.id and page.bronze-sponsor[0] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-bronze }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.bronze-sponsor[1] == meeting-sponsor.id == meeting-sponsor.id and page.bronze-sponsor[1] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-bronze }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.bronze-sponsor[2] == meeting-sponsor.id == meeting-sponsor.id and page.bronze-sponsor[2] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-bronze }}" alt="logo de meeting-sponsor.name">
-    {% elsif page.bronze-sponsor[3] == meeting-sponsor.id == meeting-sponsor.id and page.bronze-sponsor[3] != blank %}
-      <img src="{{ site.url }}/{{ meeting-sponsor.img-bronze }}" alt="logo de meeting-sponsor.name">
-    {% else %}
-
+  {% for sporsor in meetingSporsors %}
+    {% if page.bronze-sponsor[0] == sporsor.id and page.bronze-sponsor[0] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-bronze }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.bronze-sponsor[1] == sporsor.id and page.bronze-sponsor[1] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-bronze }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.bronze-sponsor[2] == sporsor.id and page.bronze-sponsor[2] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-bronze }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.bronze-sponsor[3] == sporsor.id and page.bronze-sponsor[3] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-bronze }}" alt="logo de {{ sporsor.name }}">
+    {% endif %}
+    {% if page.bronze-sponsor[4] == sporsor.id and page.bronze-sponsor[4] != blank %}
+      <img src="{{ site.url }}/{{ sporsor.img-bronze }}" alt="logo de {{ sporsor.name }}">
     {% endif %}
   {% endfor %}
+<hr>

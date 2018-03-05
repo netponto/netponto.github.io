@@ -1,26 +1,286 @@
-- id: microsoft
-  name: Microsoft Portugal
-  room: Auditório
-  street: Rua do Fogo de Santelmo, Lote 2.07.02
-  zip-code: 1990-110
+- id: sana-hotel
+  name: SANA Reno Hotel
+  room: Sala Danubio II
+  street: Avenida Duque D'Ávila, 195
+  zip_code: 1050-082
   city: Lisboa
-  map-url: http://www.google.pt/maps?q=Rua+do+Fogo+de+Santelmo,+Lote+2.07.02+1990-110&amp;hl=pt-PT&amp;hnear=R.+Fogo+de+Santelmo,+Santa+Maria+dos+Olivais,+1990+Lisboa&amp;t=m&amp;z=16&amp;iwloc=A
-  map-img: assets/img/localizacao/mapa-microsoft-lisboa.png
+  country: Portugal
+  gps_coordinates:
+  map_url: https://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Avenida+Duque+D%C2%B4%C3%81vila,+n%C2%BA+195,+1050-082+Lisboa&sll=37.0625,-95.677068&sspn=39.184175,92.724609&ie=UTF8&ll=38.735825,-9.146547&spn=0.00944,0.022638&z=16&iwloc=A
+  map_img: assets/img/localizacao/mapa-sana.png
+  directions:
+
+- id: ist
+  name: Instituto Superior Técnico
+  room: Campus Alameda, Sala C10
+  street: Avenida Rovisco Pais, n.º 1000
+  zip_code: 1049-001
+  city: Lisboa
+  country: Portugal
+  gps_coordinates:
+  map_url: http://www.google.com/maps?cid=11179955136042444934&hl=en
+  map_img: assets/img/localizacao/mapa-ist.png
+  directions: Direcções para chegar à sala C10:<br>1. Entrar pela porta principal do IST (acima da Alameda);<br>2. Subir até chegar ao edifício Central (que fica ao meio e tem escrito Instituto Superior Técnico);<br>3. Ao passar o hall da recepção do edifício vira-se à esquerda até encontrar as primeiras escadas;<br>4. Ao encontrar as escadas do lado direito, subir para o primeiro andar;<br>5. Ao final de subir as escadas, já no 1º andar, virar à esquerda e depois logo à esquerda outra vez e andar neste corredor até ao final;<br>6. Ao final do corredor virar à esquerda, e procurar a sala C10 do lado direito.<br>
 
 - id: novabase
   name: NovaBase
   room: Auditório
   street: Av. D. João II, Lote 1.03.2.3, Parque das Nações
-  zip-code: 1998-031
+  zip_code: 1998-031
   city: Lisboa
-  map-url: https://www.google.pt/maps/place/Novabase/@38.765888,-9.097951,18z/data=!4m5!3m4!1s0xd193188e7b43383:0xe44298fa21b5486f!8m2!3d38.7652154!4d-9.0975138?hl=pt-PT
-  map-img: assets/img/localizacao/mapa-novabase.png
+  country: Portugal
+  map_url: https://www.google.pt/maps/place/Novabase/@38.765888,-9.097951,18z/data=!4m5!3m4!1s0xd193188e7b43383:0xe44298fa21b5486f!8m2!3d38.7652154!4d-9.0975138?hl=pt-PT
+  map_img: assets/img/localizacao/mapa-novabase.png
+  directions:
 
-- id: sana-hotel
-  name: SANA Reno Hotel
-  room: Sala Danubio II
-  street: Avenida Duque D'Ávila, 195
-  zip-code: 1050-082
+- id: upt
+  name: Universidade Portucalense
+  room: Sala 201 (Segundo piso)
+  street: R. Dr. António Bernardino de Almeida, 541
+  zip_code: 4200-072
+  city: Porto
+  country: Portugal
+  gps_coordinates:
+  map_url: http://www.google.com/maps?f=q&source=s_q&hl=en&q=Universidade+Portucalense+Infante+Dom+Henrique,+Paranhos,+4200+Oporto,+Porto,+Portugal&sll=41.180495,-8.597488&sspn=0.019251,0.045276&ie=UTF8&cd=1&geocode=FaFcdAIdibJ8_w&split=0&hq=&hnear=Universidade+Portucalense+Infante+Dom+Henrique,+Paranhos,+4200+Oporto,+Porto,+Portugal&ll=41.179946,-8.599548&spn=0.019251,0.045276&z=15
+  map_img: assets/img/localizacao/mapa-portucalense.png
+  directions:
+
+- id: utad
+  name: UTAD (Vila Real)
+  room: Engenharias I
+  street: Quinta de Prados
+  zip_code: 5001-801
+  city: Vila Real
+  country: Portugal
+  gps_coordinates:
+  map_url: http://maps.google.com/maps?f=d&source=s_d&saddr=Porto,+Portugal&daddr=Unknown+road&hl=en&geocode=FRDmcwIdPZ58_ylp1HTw-mQkDTEvKhThESxWQA%3BFcz7dQIdf-KJ_w&mra=ls&sll=39.99946,-8.41414&sspn=3.416844,7.13562&ie=UTF8&ll=41.290609,-7.739546&spn=0.010512,0.022724&z=16
+  map_img: assets/img/localizacao/mapa-utad.png
+  directions: Trajecto aconselhado desde Lisboa, Coimbra, Évora, Beja, Faro:<br><a href="http://bit.ly/ehzMEE" target="_blank" rel="nofollow">http://bit.ly/ehzMEE</a><br>Trajecto aconselhado desde o Porto:<br><a href="http://bit.ly/fcgQIl" target="_blank" rel="nofollow">http://bit.ly/fcgQIl</a><br>Trajecto aconselhado desde Portalegre, Castelo Branco, Guarda:<br><a href="http://bit.ly/dHHt07" target="_blank" rel="nofollow">http://bit.ly/dHHt07</a>
+
+- id: his
+  name: HIS - Health Innovation Systems
+  room: Edifício Infanta D. Maria
+  street: Rua Infanta D. Maria, n.º24
+  zip_code: 3030-384
+  city: Coimbra
+  country: Portugal
+  gps_coordinates: 40.206764, -8.411307
+  map_url: http://www.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=40.206764,+-8.411307&aq=&sll=40.205738,-8.410678&sspn=0.010685,0.022724&ie=UTF8&ll=40.206935,-8.412373&spn=0.010685,0.022724&z=16
+  map_img: assets/img/localizacao/mapa-his.png
+  directions:
+
+- id: ipn
+  name: Instituto Pedro Nunes
+  room:
+  street: Rua Pedro Nunes
+  zip_code: 3030-199
+  city: Coimbra
+  country: Portugal
+  gps_coordinates:
+  map_url: http://www.google.pt/maps?q=Rua+Pedro+Nunes+3030+-+199,+Coimbra&hl=pt-PT&ie=UTF8&ll=40.193184,-8.408875&spn=0.009818,0.01929&sll=39.639538,-7.849731&sspn=10.129998,19.753418&oq=Rua+Pedro+Nunes,+3030+-+199&hnear=R.+Pedro+Nunes,+Santo+Ant%C3%B3nio+dos+Olivais,+3030+Coimbra&t=m&z=16
+  map_img: assets/img/localizacao/mapa-ipn.png
+  directions:
+
+- id: microsoft-taguspark
+  name: Microsoft Portugal
+  room: Auditório (Edifício Qualidade, C1-C2)
+  street: Av. Prof. Doutor Aníbal Cavaco Silva
+  zip_code: 2744-010
+  city: Porto Salvo
+  country: Portugal
+  gps_coordinates:
+  map_url: http://www.google.pt/maps?q=MICROSOFT-MSFT+LDA,+Porto+Salvo&hl=pt-PT&sll=39.639538,-7.849731&sspn=10.129998,19.753418&oq=Microsoft+Portugal&hq=MICROSOFT-MSFT+LDA,&hnear=Porto+Salvo,+Oeiras,+Lisboa&t=m&z=16&iwloc=A
+  map_img: assets/img/localizacao/mapa-microsoft.png
+  directions: <strong>Sentido Lisboa - Cascais</strong><br>1) Entre na A5 em direcção a Cascais;<br>2) Saia a seguir à estação de serviço, nas portagens de Porto Salvo;<br>3) Contorne a 1ª rotunda e vire à direita em direcção ao Tagus-Park;<br>4) Prossiga até encontrar uma nova rotunda. Contorne-a e vire à esquerda;<br>5) Acaba de chegar à Microsoft! É o 1º edifício do lado esquerdo;<br>Deve procurar a entrada onde diz Bloco C1.<br><strong>Sentido Cascais - Lisboa</strong><br>1) Entre na A5 em direcção a Lisboa;<br>2) Saia na saída de Oeiras, Porto Salvo;<br>3) Depois das portagens, vire na 1ª à esquerda;<br>4) Contorne a 1ª rotunda e siga em frente em direcção ao Tagus-Park;<br>5) Prossiga até encontrar uma nova rotunda. Contorne-a e vire à esquerda;<br>6) Acaba de chegar à Microsoft. É o 1º edifício do lado esquerdo.<br>Deve procurar a entrada onde diz Bloco C1.<br>
+
+- id: isep
+  name: Instituto Superior de Engenharia do Porto (ISEP)
+  room: Auditório H202
+  street: Rua Dr. António Bernardino de Almeida, 431
+  zip_code: 4200-072
+  city: Porto
+  country: Portugal
+  gps_coordinates:
+  map_url: http://www.google.pt/maps?q=%22INSTITUTO+SUPERIOR+DE+ENGENHARIA+DO+PORTO%22&hl=pt-PT&ll=41.178008,-8.607337&spn=0.009674,0.01929&hq=%22INSTITUTO+SUPERIOR+DE+ENGENHARIA+DO+PORTO%22&t=m&z=16
+  map_img: assets/img/localizacao/mapa-isep.png
+  directions:
+
+- id: microsoft-lx
+  name: Microsoft Portugal
+  room: Auditório
+  street: Rua do Fogo de Santelmo, Lote 2.07.02
+  zip_code: 1990-110
   city: Lisboa
-  map-url: https://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Avenida+Duque+D%C2%B4%C3%81vila,+n%C2%BA+195,+1050-082+Lisboa&sll=37.0625,-95.677068&sspn=39.184175,92.724609&ie=UTF8&ll=38.735825,-9.146547&spn=0.00944,0.022638&z=16&iwloc=A
-  map-img: assets/img/localizacao/mapa-sana.png
+  country: Portugal
+  gps_coordinates:
+  map_url: http://www.google.pt/maps?q=Rua+do+Fogo+de+Santelmo,+Lote+2.07.02+1990-110&amp;hl=pt-PT&amp;hnear=R.+Fogo+de+Santelmo,+Santa+Maria+dos+Olivais,+1990+Lisboa&amp;t=m&amp;z=16&amp;iwloc=A
+  map_img: assets/img/localizacao/mapa-microsoft-lisboa.png
+  directions:
+
+- id: ipvc
+  name: Escola Superior de Tecnologia e Gestão
+  room:
+  street: Avenida do Atlântico
+  zip_code: 4900-348
+  city: Viana do Castelo
+  country: Portugal
+  gps_coordinates: N 41º 41' 36'' W 8º 50' 48''
+  map_url: https://www.google.pt/maps?f=q&source=s_q&hl=pt-PT&geocode=&q=Instituto+Polit%C3%A9cnico+de+Viana+do+Castelo&aq=&sll=39.639538,-7.849731&sspn=9.724439,19.753418&vpsrc=0&ie=UTF8&hq=Instituto+Polit%C3%A9cnico+de+Viana+do+Castelo&hnear=&ll=41.771312,-8.846741&spn=1.177823,2.469177&t=m&z=9&iwloc=A&cid=16175358506539367066
+  map_img: assets/img/localizacao/mapa-ipvc.png
+  directions:
+
+- id: critical-porto
+  name: Critical Software
+  room:
+  street: Largo do Doutor Tito Fontes 21
+  zip_code: 4000-124
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.1526662, -8.6083909
+  map_url: https://www.google.pt/maps/place/Critical+Software+S.A./@41.1527006,-8.6105595,17z/data=!3m1!4b1!4m5!3m4!1s0xd2467ea3e5b8993:0x1d16c225f2915449!8m2!3d41.1526966!4d-8.6083708
+  map_img: assets/img/localizacao/mapa-critical-porto.png
+  directions:
+
+- id: mindera
+  name: Mindera
+  room: Edifício MAPFRE - sala 116
+  street: Rua de Gonçalo Cristóvão, 347
+  zip_code: 4000-270
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.153014,-8.6120054
+  map_url: https://www.google.com/maps/place/Mindera,+Rua+de+Gonçalo+Cristóvão+347,+4000-270+Porto/
+  map_img: assets/img/localizacao/mapa-mindera.png
+  directions:
+
+- id: critical-maia
+  name: Critical Manufacturing, S.A.
+  room: Auditório
+  street: Rua Engº Frederico Ulrich, nº 2650
+  zip_code: 4470-605
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41°15'32.87"N, 8°38'28.46"W
+  map_url: https://www.google.pt/maps/place/R.+Eng.+Frederico+Ulrich+2650,+4470-605+Moreira+da+Maia/@41.2613019,-8.6457658,14z/data=!4m2!3m1!1s0xd2467ea5b285777:0x4f1087d89777181c
+  map_img: assets/img/localizacao/mapa-critical-manufacturing-maia.png
+  directions:
+
+- id: primavera
+  name: Primavera - Business Software Solutions, S.A.
+  room: Auditório
+  street: R. Dr. Egídio Guimarães 60
+  zip_code: 4715-213
+  city: Lamaçães, Braga
+  country: Portugal
+  gps_coordinates: 41.5422911, -8.4020211
+  map_url: https://www.google.pt/maps/place/Primavera+-+Business+Software+Solutions,+S.A./@41.5417905,-8.4036505,17z/data=!4m2!3m1!1s0x0000000000000000:0x95bb00b016c6e4e2?hl=en
+  map_img: assets/img/localizacao/mapa-primavera-braga.png
+  directions:
+
+- id: devscope
+  name: DevScope
+  room:
+  street: Rua Passos Manuel, 223 - 3º Andar
+  zip_code: 4000-385
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.146644, -8.604676
+  map_url: https://www.google.pt/maps/place/DevScope,+R.+de+Passos+Manuel+223,+Porto,+Portugal/@41.146644,-8.604676,17z/data=!4m2!3m1!1s0xd2464ef7b690243:0xddfeae9a1267e522
+  map_img: mapa-devscope-porto.png
+  directions:
+
+- id: fusion-cowork
+  name: Fusion Cowork
+  room: Edifício Aveiro Centrum, Loja 3
+  street: Rua Carlos Aleluia, 4
+  zip_code: 3810-177
+  city: Aveiro
+  country: Portugal
+  gps_coordinates: 40.640106, -8.651609
+  map_url: https://www.google.pt/maps/search/Rua+Carlos+Aleluia,+4/@40.6403485,-8.6485528,18z/data=!3m1!4b1
+  map_img: assets/img/localizacao/mapa-fusion-cowork-aveiro.png
+  directions:
+
+- id: farfetch-porto
+  name: Farfetch
+  room: Edificio G12
+  street: Rua da Lionesa, n.º 446 – Leça do Balio
+  zip_code: 4465-671
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.2153111, -8.6240305
+  map_url: https://www.google.pt/maps/place/Farfetch,+R.+Lionesa,+4465-671+Leça+do+Balio/@41.2153111,-8.6240305,18z/data=!3m1!4b1!4m5!3m4!1s0xd246666dd8ab2cd:0x495c9ca6f9636744!8m2!3d41.215218!4d-8.6231112
+  map_img: mapa-farfetch-porto.png
+  directions:
+
+- id: it-sector
+  name: IT Sector
+  room:
+  street: Rua José Falcão, 151, 1º/2º
+  zip_code: 4050-317
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.149217, -8.6152953
+  map_url: https://www.google.pt/maps/place/IT+Sector/@41.149217,-8.6152953,18z/data=!4m5!3m4!1s0xd2464e0363245b3:0x3d1af529e209fd70!8m2!3d41.149217!4d-8.614201?hl=en
+  map_img: assets/img/localizacao/mapa-it-sector-porto.png
+  directions:
+
+- id: blip-porto
+  name: Blip
+  room:
+  street: Avenida Camilo 96
+  zip_code: 4300-095
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.148551, -8.5961308
+  map_url: https://www.google.pt/maps/place/Av.+de+Camilo+96,+4300-096+Porto/@41.148551,-8.5961308,17z/data=!4m5!3m4!1s0xd2464ed3798fc83:0x2614cc316fd534da!8m2!3d41.1490418!4d-8.5947146
+  map_img: assets/img/localizacao/mapa-blip-porto.png
+  directions:
+
+- id: bit-sonae
+  name: BIT Sonae
+  room:
+  street: Estrada da Circunvalação, 7642
+  zip_code: 4200-162
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.1832226, -8.6017404
+  map_url: https://www.google.pt/maps/place/Heart+bit/@41.1832226,-8.6017404,17z/data=!4m12!1m6!3m5!1s0xd246439146924e1:0x9838565e8c333543!2sHeart+bit!8m2!3d41.1832226!4d-8.5995517!3m4!1s0xd246439146924e1:0x9838565e8c333543!8m2!3d41.1832226!4d-8.5995517
+  map_img: assets/img/localizacao/mapa-bit-sonae-porto.png
+  directions:
+
+- id: nerlei
+  name: Nerlei - Associação Empresarial Da Região De Leiria
+  room:
+  street: Av. Bernardo Pimenta Ed. Nerlei
+  zip_code: 2440-010
+  city: Leiria
+  country: Portugal
+  gps_coordinates: 39.750293, -8.812275
+  map_url: https://www.google.com/maps/place/Nerlei-associação+Empresarial+Da+Região+De+Leiria/@39.7503177,-8.8144908,17z/data=!4m12!1m6!3m5!1s0xd227545817e6287:0x28f1fbba80ba085!2sNerlei-associação+Empresarial+Da+Região+De+Leiria!8m2!3d39.7503177!4d-8.8123021!3m4!1s0xd227545817e6287:0x28f1fbba80ba085!8m2!3d39.7503177!4d-8.8123021
+  map_img: assets/img/localizacao/mapa-nerlei.png
+  directions:
+
+- id: talkdesk-porto
+  name: Talkdesk
+  room:
+  street: Rua Gonçalo Cristovão, 183
+  zip_code: 4000-269
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.1533908, -8.6085854
+  map_url: https://www.google.com/maps/search/Rua+de+Gonçalo+Cristóvão+183,+4000-119+Porto/@41.1533643,-8.6089852,19z?hl=en
+  map_img: mapa-talkdesk-porto.png
+  directions:
+
+- id: natixis-porto
+  name: Natixis
+  room:
+  street: Rua de Santos Pousada, 220 - 4000-478
+  zip_code: 4000-478
+  city: Porto
+  country: Portugal
+  gps_coordinates: 41.1505229, -8.6013379
+  map_url: https://goo.gl/maps/AHPySX4yKky
+  map_img: assets/img/localizacao/mapa-natixis-porto.png
+  directions:

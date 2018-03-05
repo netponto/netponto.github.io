@@ -1,41 +1,454 @@
-microsoft:
-  name: Microsoft
-  url: https://www.microsoft.com/
-  img-gold: assets/img/patrocinador/logo-microsoft-gold-2012.png
-  img-silver: assets/img/patrocinador/logo-microsoft-silver-2012.png
-  img-bronze:
-
-novabase:
-  name: NovaBase
-  url: http://www.novabase.pt/
-  img-gold: assets/img/patrocinador/logo-novabase-gold.png
-  img-silver:
-  img-bronze:
-
-redgate:
-  name: Redgate
-  url: http://www.red-gate.com/
-  img-gold:
-  img-silver: assets/img/patrocinador/logo-redgate-silver.png
-  img-bronze: assets/img/patrocinador/logo-redgate-bronze.png
-
-telerik:
-  name: Telerik
-  url: https://www.telerik.com/
-  img-gold:
-  img-silver: assets/img/patrocinador/logo-telerik-silver.png
-  img-bronze:
-
-ciclo:
+- id: ciclo
   name: CICLO
-  url: https://www.ciclo.pt/
+  url: http://ciclo.pt
   img-gold: assets/img/patrocinador/logo-ciclo-gold.png
   img-silver: assets/img/patrocinador/logo-ciclo-silver.png
   img-bronze:
 
-ist:
+- id: microsoft
+  name: Microsoft Portugal
+  url: http://www.microsoft.com/portugal
+  img-gold: assets/img/patrocinador/logo-microsoft-gold-2012.png
+  img-silver: assets/img/patrocinador/logo-microsoft-silver-2012.png
+  img-bronze:
+
+- id: ugss
+  name: User Group Support Services
+  url: http://www.technicalcommunity.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-ugss-silver.png
+  img-bronze:
+
+- id: ist
   name: Instituto Superior Técnico
-  url: https://tecnico.ulisboa.pt/
+  url: http://www.ist.utl.pt
   img-gold: assets/img/patrocinador/logo-ist-gold.png
   img-silver:
   img-bronze:
+
+- id: novabase
+  name: Novabase
+  url: http://www.novabase.pt
+  img-gold: assets/img/patrocinador/logo-novabase-gold.png
+  img-silver:
+  img-bronze:
+
+- id: telerik
+  name: Telerik
+  url: http://www.telerik.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-telerik-silver.png
+  img-bronze:
+
+- id: redgate
+  name: RedGate
+  url: http://www.red-gate.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-redgate-silver.png
+  img-bronze: assets/img/patrocinador/logo-redgate-bronze.png
+
+- id: jetbrains
+  name: JetBrains
+  url: http://www.jetbrains.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-jetbrains-silver.png
+  img-bronze:
+
+- id: tekpub
+  name: TekPub
+  url: http://tekpub.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-tekpub-silver.png
+  img-bronze:
+
+- id: linqpad
+  name: LINQPad
+  url: http://www.linqpad.net
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-linqpad-silver.png
+  img-bronze:
+
+- id: upt
+  name: Universidade Portucalense (UPT)
+  url: http://www.uportu.pt/nova
+  img-gold: assets/img/patrocinador/logo-upt-gold.png
+  img-silver:
+  img-bronze:
+
+- id: nediup
+  name: Nediup
+  url: http://nediup.tk
+  img-gold: assets/img/patrocinador/logo-nediup-gold.png
+  img-silver:
+  img-bronze:
+
+- id: paulo-morgado
+  name: Paulo Morgado
+  url: http://paulomorgado.net/pt
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-paulo-morgado-silver.png
+  img-bronze:
+
+- id: mvp
+  name: Microsoft Most Valuable Professional (MVP) Program
+  url: http://mvp.support.microsoft.com/gp/aboutmvp
+  img-gold: assets/img/patrocinador/logo-mvp-gold.png
+  img-silver:
+  img-bronze:
+
+- id: eviware
+  name: Eviware
+  url: http://www.eviware.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-eviware-silver.png
+  img-bronze:
+
+- id: pluralsight
+  name: Pluralsight
+  url: http://www.pluralsight.com
+  img-gold: assets/img/patrocinador/logo-pluralsight-gold.png
+  img-silver: assets/img/patrocinador/logo-pluralsight-silver.png
+  img-bronze:
+
+- id: iap4u
+  name: Iap4u
+  url: http://iap4u.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-iap4u-silver.png
+  img-bronze:
+
+- id: utad
+  name: Universidade de Trás-os-Montes e Alto Douro (UTAD)
+  url: http://www.utad.pt
+  img-gold: assets/img/patrocinador/logo-utad-gold.png
+  img-silver:
+  img-bronze:
+
+- id: his
+  name: HIS - E-Health Innovation Systems
+  url: http://www.his.pt
+  img-gold: assets/img/patrocinador/logo-his-gold.png
+  img-silver:
+  img-bronze:
+
+- id: luis-abreu
+  name: Luis Abreu
+  url: http://blogs.msmvps.com/luisabreu
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-luis-abreu-silver.png
+  img-bronze: assets/img/patrocinador/logo-luis-abreu-bronze.png
+
+- id: jorge-silva
+  name: Jorge Silva
+  url: http://www.facebook.com/Jorge.MC.Silva
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-jorge-silva-silver.png
+  img-bronze:
+
+- id: nuno-godinho
+  name: Nuno Godinho
+  url: http://msmvps.org/blogs/nunogodinho
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-nuno-godinho-silver.png
+  img-bronze:
+
+- id: hibernating-rhinos
+  name: Hibernating Rhinos
+  url: http://hibernatingrhinos.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-hibernating-rhinos-silver.png
+  img-bronze:
+
+- id: xamarin
+  name: Xamarin
+  url: http://www.xamarin.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-xamarin-silver.png
+  img-bronze:
+
+- id: codesmith-tools
+  name: CodeSmith Tools
+  url: http://www.codesmithtools.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-codesmith-tools-silver.png
+  img-bronze:
+
+- id: codeprime
+  name: CodePrime
+  url: http://codeprime.biz
+  img-gold:
+  img-silver:
+  img-bronze: assets/img/patrocinador/logo-codeprime-bronze.png
+
+- id: isep
+  name: Instituto Superior de Engenharia do Porto (ISEP)
+  url: http://www.isep.ipp.pt
+  img-gold: assets/img/patrocinador/logo-isep-gold.png
+  img-silver:
+  img-bronze:
+
+- id: dei-isep
+  name: Departamento de Engenharia Informática ISEP
+  url: http://www.dei.isep.ipp.pt
+  img-gold: assets/img/patrocinador/logo-dei-isep-gold.png
+  img-silver:
+  img-bronze:
+
+- id: rumos
+  name: Rumos
+  url: http://rumos.pt
+  img-gold: assets/img/patrocinador/logo-rumos-gold.png
+  img-silver:
+  img-bronze:
+
+- id: postsharp
+  name: SharpCrafters
+  url: http://www.sharpcrafters.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-postsharp-silver.png
+  img-bronze:
+
+- id: broadscope
+  name: BroadScope
+  url: http://broadscope.eu
+  img-gold: assets/img/patrocinador/logo-broadscope-gold.png
+  img-silver:
+  img-bronze:
+
+- id: ipvc
+  name: Instituto Politécnico de Viana do Castelo
+  url: http://www.ipvc.pt
+  img-gold: assets/img/patrocinador/logo-ipvc-gold.png
+  img-silver:
+  img-bronze:
+
+- id: estg-ipvc
+  name: Escola Superior de Tecnologia e Gestão (IPVC)
+  url: http://www.estg.ipvc.pt
+  img-gold: assets/img/patrocinador/logo-estg-v2-ipvc-gold.png
+  img-silver:
+  img-bronze:
+
+- id: cet-tpsi-ipvc
+  name: CET TPSI IPVC
+  url: http://www.ipvc.pt/cet-tecnologias-programacao-si
+  img-gold: assets/img/patrocinador/logo-cet-tpsi-ipvc-gold.png
+  img-silver:
+  img-bronze:
+
+- id: survs
+  name: Survs
+  url: http://www.survs.com/
+  img-gold:
+  img-silver:
+  img-bronze: assets/img/patrocinador/logo-survs-bronze.jpg
+
+- id: nokia
+  name: Nokia
+  url: http://www.nokia.com
+  img-gold: assets/img/patrocinador/logo-nokia-gold.png
+  img-silver: assets/img/patrocinador/logo-nokia-silver.png
+  img-bronze:
+
+- id: campusMVPnet
+  name: campusMVP
+  url: http://www.campusmvp.net
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-campusMVPnet_white-silver.jpg
+  img-bronze:
+
+- id: armis
+  name: Armis
+  url: http://www.armis.pt/
+  img-gold: assets/img/patrocinador/logo-armis-gold.png
+  img-silver:
+  img-bronze:
+
+- id: syncfusion
+  name: Syncfusion
+  url: http://www.syncfusion.com/products/communitylicense?utm_medium=usergroup_dotnetponto
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-syncfusion-silver.png
+  img-bronze:
+
+- id: findmore
+  name: FindMore
+  url: http://findmore.pt/
+  img-gold: assets/img/patrocinador/logo-findmore-gold.png
+  img-silver:
+  img-bronze:
+
+- id: ndepend
+  name: NDepend
+  url: http://www.ndepend.com/
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-ndepend-silver.png
+  img-bronze:
+
+- id: critical
+  name: Critical Software
+  url: http://www.criticalsoftware.com/
+  img-gold: assets/img/patrocinador/logo-critical-gold.png
+  img-silver:
+  img-bronze:
+
+- id: welisten
+  name: weListen
+  url: http://welisten.eu
+  img-gold: assets/img/patrocinador/logo-welisten-gold.png
+  img-silver:
+  img-bronze:
+
+- id: nei-isep
+  name: NEI-ISEP
+  url: http://www.nei-isep.org/
+  img-gold:
+  img-silver:
+  img-bronze: assets/img/patrocinador/logo-nei-isep-bronze.png
+
+- id: mindera
+  name: Mindera
+  url: http://mindera.com/
+  img-gold: assets/img/patrocinador/logo-mindera-gold.png
+  img-silver:
+  img-bronze:
+
+- id: critical-manufacturing
+  name: Critical Manufacturing
+  url: http://www.criticalmanufacturing.com/
+  img-gold: assets/img/patrocinador/logo-critical-manufacturing-gold.png
+  img-silver:
+  img-bronze:
+
+- id: trello
+  name: Trello
+  url: http://trello.com/
+  img-gold: assets/img/patrocinador/logo-trello-gold.png
+  img-silver: assets/img/patrocinador/logo-trello-silver.png
+  img-bronze: assets/img/patrocinador/logo-trello-bronze.png
+
+- id: teelook
+  name: Teelook
+  url: http://teelook.pt/
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-teelook-silver.png
+  img-bronze: assets/img/patrocinador/logo-teelook-bronze.png
+
+- id: primavera
+  name: Primavera Software
+  url: http://primaverabss.com
+  img-gold: assets/img/patrocinador/logo-primavera-gold.png
+  img-silver: assets/img/patrocinador/logo-primavera-silver.png
+  img-bronze:
+
+- id: devscope
+  name: DevScope
+  url: https://www.devscope.net/
+  img-gold: assets/img/patrocinador/logo-devscope-gold.png
+  img-silver: assets/img/patrocinador/logo-devscope-silver.png
+  img-bronze:
+
+- id: fusion-cowork
+  name: Fusion Cowork
+  url: http://fusioncowork.com/
+  img-gold: assets/img/patrocinador/logo-fusion-cowork-gold.png
+  img-silver: assets/img/patrocinador/logo-fusion-cowork-gold.png
+  img-bronze:
+
+- id: farfetch
+  name: Farfetch
+  url: http://farfetch.com
+  img-gold: assets/img/patrocinador/logo-farfetch-gold.png
+  img-silver: assets/img/patrocinador/logo-farfetch-silver.png
+  img-bronze:
+
+- id: it-sector
+  name: IT Sector
+  url: http://itsector.pt
+  img-gold: assets/img/patrocinador/logo-it-sector-gold.png
+  img-silver: assets/img/patrocinador/logo-it-sector-silver.png
+  img-bronze:
+
+- id: blip
+  name: Blip
+  url: http://blip.pt
+  img-gold: assets/img/patrocinador/logo-blip-gold.png
+  img-silver: assets/img/patrocinador/logo-blip-gold.png
+  img-bronze:
+
+- id: abertoatedemadrugada
+  name: Aberto Até de Madrugada
+  url: http://abertoatedemadrugada.com/
+  img-gold:
+  img-silver:
+  img-bronze: assets/img/patrocinador/logo-abertoatedemadrugada-bronze.jpg
+
+- id: itjobs
+  name: ITJobs
+  url: https://www.itjobs.pt/
+  img-gold:
+  img-silver:
+  img-bronze: assets/img/patrocinador/logo-itjobs-bronze.png
+
+- id: bit-sonae
+  name: BIT Sonae
+  url: https://www.linkedin.com/company/bit-sonae
+  img-gold: assets/img/patrocinador/logo-bit-sonae-gold.png
+  img-silver: assets/img/patrocinador/logo-bit-sonae-silver.png
+  img-bronze:
+
+- id: elmah
+  name: Elmah
+  url: https://elmah.io/
+  img-gold:
+  img-silver:
+  img-bronze:
+
+- id: nerlei
+  name: Nerlei
+  url: http://www.nerlei.pt/pt
+  img-gold: assets/img/patrocinador/logo-nerlei-gold.png
+  img-silver:
+  img-bronze:
+
+- id: tice.leiria
+  name: TICE.Leiria
+  url: https://www.tice.pt/
+  img-gold: assets/img/patrocinador/logo-tice.leiria-gold.png
+  img-silver:
+  img-bronze:
+
+- id: talkdesk
+  name: Talkdesk
+  url: https://talkdesk.com
+  img-gold: assets/img/patrocinador/logo-talkdesk-gold.png
+  img-silver: assets/img/patrocinador/logo-talkdesk-silver.png
+  img-bronze:
+
+- id: elmahio
+  name: Elmah.io
+  url: https://elmah.io/
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-elmahio-silver.png
+  img-bronze: assets/img/patrocinador/logo-elmahio-bronze.png
+
+- id: natixis
+  name: Natixis
+  url: https://natixis.com
+  img-gold: assets/img/patrocinador/logo-natixis-gold.jpg
+  img-silver: assets/img/patrocinador/logo-natixis-silver.jpg
+  img-bronze:
+
+- id: progress
+  name: Progress
+  url: https://www.telerik.com
+  img-gold:
+  img-silver: assets/img/patrocinador/logo-progress-silver.png
+  img-bronze:
+
+- id: fundisk
+  name: Fundisk Entertainment
+  url: http://www.fundisk.eu/
+  img-gold:
+  img-silver:
+  img-bronze: assets/img/patrocinador/logo-fundisk-silver.png
