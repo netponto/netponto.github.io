@@ -1,0 +1,5 @@
+  {% if session.end_time < "12:00" or session.end_time > "14:30" %}
+    <strong>Intervalo</strong>
+    {% else %}
+      <strong>Almoço</strong>
+  {% endif %}

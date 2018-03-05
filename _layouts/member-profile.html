@@ -1,9 +1,105 @@
 ---
 layout: default
 ---
-<h2>{{ page.name }}</h2>
 {% comment %}
-  TODO: Add 'like' buttons (Facebook, GooglePlus)
+  TODO:
+  1) Add 'like' buttons (Facebook, GooglePlus)
+  2) Add total de sessões apresentadas por cada membro
+  3) Add Revista a Programar e total de artigos escritos por cada membro
 {% endcomment %}
 
+<h2>
+  {{ page.name }}
+  {% assign speakers = site.members %}
+    {% for speaker in speakers %}
+      {% if page.name == speaker.name %}
+        {% include _conditions/if-speaker-is-microsoft-mvp.html %}
+      {% endif %}
+    {% endfor %}
+</h2>
+
 {{ content }}
+
+<br /><br />
+Links e Perfís em Redes Sociais:<br /><br />
+<ul style="margin-left: 15px;">
+  {% if page.site_url != blank %}
+    <li>Site: <a href="{{ page.site_url }}" title="Site de {{ page.name }}" rel="nofollow">{{ page.site_url }}</a></li>
+  {% endif %}
+
+  {% if page.blog_url != blank %}
+    <li>Blog: <a href="{{ page.blog_url }}" title="Blog de {{ page.name }}" rel="nofollow">{{ page.blog_url }}</a></li>
+  {% endif %}
+
+  {% if page.twitter_username != blank %}
+    <li>Twitter: <a href="http://twitter.com/{{ page.twitter_username }}" title="Twitter de {{ page.name }}" rel="nofollow">http://twitter.com/{{ page.twitter_username }}</a></li>
+  {% endif %}
+
+  {% if page.linkedin_username != blank %}
+    <li>LinkedIn: <a href="https://linkedin.com/in/{{ page.linkedin_username }}" title="LinkedIn de {{ page.name }}" rel="nofollow">https://linkedin.com/in/{{ page.linkedin_username }}</a></li>
+  {% endif %}
+
+  {% if page.geeklist != blank %}
+    <li>Geeklist: <a href="http://geekli.st/{{ page.geeklist }}" title="Geeklist de  {{ page.name }}" rel="nofollow">http://geekli.st/{{ page.geeklist }}</a></li>
+  {% endif %}
+
+  {% if page.facebook_username != blank %}
+    <li>Facebook: <a href="http://www.facebook.com/{{ page.facebook_username }}" title="Facebook de  {{ page.name }}" rel="nofollow">http://www.facebook.com/{{ page.facebook_username }}</a></li>
+  {% endif %}
+
+  {% if page.googleplus_username != blank %}
+    <li>Google+: <a href="http://plus.google.com/{{ page.googleplus_username }}" title="Google+ de  {{ page.name }}" rel="nofollow">http://plus.google.com/{{ page.googleplus_username }}</a></li>
+  {% endif %}
+</ul>
+
+<br /><br />Projectos e Contribuições <em>Open Source</em>:<br /><br />
+<ul style="margin-left: 15px;">
+  {% if page.github_username != blank %}
+    <li>GitHub: <a href="http://github.com/{{ page.github_username }}" title="Projectos e contribuições open source de {{ page.name }} no GitHub" rel="nofollow">http://github.com/{{ page.github_username }}</a></li>
+  {% endif %}
+
+  {% if page.bitbucket_username != blank %}
+    <li>BitBucket: <a href="http://bitbucket.org/{{ page.bitbucket_username }}" title="Projectos e contribuições open source de {{ page.name }} no BitBucket" rel="nofollow">http://bitbucket.org/{{ page.bitbucket_username }}</a></li>
+  {% endif %}
+
+  {% if page.codeplex_username != blank %}
+    <li>CodePlex: <a href="http://www.codeplex.com/site/users/view/{{ page.codeplex_username }}" title="Projectos e contribuições open source de {{ page.name }} no CodePlex" rel="nofollow">http://www.codeplex.com/site/users/view/{{ page.codeplex_username }}</a></li>
+  {% endif %}
+</ul>
+
+<br /><br />Sessões que já apresentou em eventos da Comunidade NetPonto:<br /><br />
+<ul style="margin-left: 15px;">
+  {% assign sessions = site.sessions %}
+    {% for session in sessions %}
+      {% if page.slug == session.speakers[0] or page.slug == session.speakers[1] or page.slug == session.speakers[2] %}
+        <li> {{ session.date | date: "%d-%m-%Y" }} - <a href="{{ session.url | prepend: site.baseurl }}" title="{{ session.title }}">{{ session.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
+
+<!-- Calculation: total of sessions for each member -->
+{% assign sessionsTotal = "" %}
+  {% for session in sessions %}
+    {% if page.slug == session.speakers[0] or page.slug == session.speakers[1] or page.slug == session.speakers[2] %}
+      {% assign sessionsTotal = sessionsTotal | append: 'x' %}
+    {% endif %}
+  {% endfor %}
+<br />{{ page.name }} já apresentou um total de {{ sessionsTotal.size }} sessões até hoje, nos eventos da Comunidade NetPonto.<br />
+
+<br /><br />Artigos que já escreveu para a Revista PROGRAMAR:<br /><br />
+<ul style="margin-left: 15px;">
+     <li>FALTA LISTAR TODOS OS ARTIGOS ESCRITOS</li>
+</ul>
+
+ <br />{{ page.name }}  já escreveu "CALCULAR TOTAL DE SESSÕES" artigos até hoje, para a Revista PROGRAMAR.<br />
+
+
+<div>
+    <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+    <hr style="background-color:#777777; border:0pt none; color:#777777; height:1px; margin:0 auto; text-align: center; width:100%;" />
+    <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+</div>
+
+<div class="paragraph" style="text-align: left; display: block;">
+    <a href="{{ site.baseurl }}/membros/" title="Ver a lista completa dos membros da Comunidade NetPonto">Ver a lista completa dos membros da Comunidade NetPonto</a>
+</div>

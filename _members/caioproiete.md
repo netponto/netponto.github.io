@@ -4,9 +4,13 @@ member_since: 2009-08-04 22:46:33 +0100
 site_url: http://caioproiete.com
 blog_url: http://caioproiete.net
 github_username: caioproiete
+bitbucket_username: caioproiete
+codeplex_username: caioproiete
 twitter_username: caioproiete
 linkedin_username: caioproiete
 facebook_username: caio.proiete
+googleplus_username: 107801119634770959182
+geeklist: caioproiete
 gravatar_email_hash: 60f68d36f4619cc19e26c0e3f84fd6e5
 is_microsoft_mvp: true
 redirect_from: /membro/caio-proiete/
@@ -35,4 +39,3 @@ Escreve sobre arquitectura e desenvolvimento de software em [seu blog pessoal][1
 [10]: https://developer.mozilla.org/en/JavaScript
 [11]: http://www.microsoft.com/windowsazure/
 [12]: http://caioproiete.net
-
