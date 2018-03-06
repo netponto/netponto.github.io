@@ -26,17 +26,14 @@ layout: default
 </div>
 
 <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Vídeos de algumas das apresentações que já fizemos:<br />
-  <ul class="video-gallery">
-    <li><a href="{{ site.baseurl | prepend: site.url }}/sessao/introducao-ao-desenvolvimento-agil-usando-scrum/" title="Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum"><img src="http://i1.ytimg.com/vi/707/hqdefault.jpg" alt="Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum" /></a> <span><a href="{{ site.baseurl | prepend: site.url }}/sessao/introducao-ao-desenvolvimento-agil-usando-scrum/" title="Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum">Introdu&#231;&#227;o ao desenvolvimento &#225;gil usando Scrum</a></span></li>
-  </ul>
-  {% for session in sessions limit:8 %}
-    {% if session.videos_urls != blank %}
-    <ul class="video-gallery">
-      <li>{{ session.title }} - {{ session.videos_urls }}</li>
-    </ul>
+  {% for session in sessions %}
+    {% if session.videos_watch != blank  %}
+      <div style="width:30%; max-width:30%; display: inline-block; vertical-align: top; padding:5px;">
+        <iframe src="//www.youtube-nocookie.com/embed/{{ session.videos_watch }}?rel=0" frameborder="0" allowfullscreen style="width:100%; max-width:100%;"></iframe>
+        <a href="{{ site.baseurl | prepend: site.url }}{{ session.url }}" title="{{ session.title }}">{{ session.title }}"</a>
+      </div>
     {% endif %}
   {% endfor %}
-</div>
 
 <div>
     <div style="height: 20px; overflow: hidden; width: 100%;"></div>
@@ -105,6 +102,7 @@ layout: default
     <li><a href="{{ site.baseurl | prepend: site.url }}/sessao/novidades-seguranca-asp-net-core-1.0/" title="Novidades de seguran&#231;a em ASP.NET Core 1.0">Novidades de seguran&#231;a em ASP.NET Core 1.0</a></li>
   </ul>
   <br />
+
   {% for session in site.sessions limit:10 %}
       <ul>
         <li><a href="{{ session.url | prepend: site.baseurl }}" title="{{ session.title }}">{{ session.title }}</a></li>
@@ -121,7 +119,7 @@ layout: default
 </div>
 
 <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">Membros da Comunidade NetPonto:<br /><br />
-    {% for member in site.members limit:10 %}
+    {% for member in site.members limit:10  | sample:10 %}
         <ul>
           <li><a href="{{ member.url | prepend: site.baseurl }}" title="{{ member.title }}">{{ member.title }}</a></li>
         </ul>

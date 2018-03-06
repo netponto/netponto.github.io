@@ -6,15 +6,27 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 {% include social-media-buttons.html %}
+<p>Por:
+{% assign speakers = site.members %}
+  {% for speaker in speakers %}
+    {% if page.speakers[0] == speaker.slug and page.speakers[0] != blank %}
+      <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+    {% endif %}
+    {% if page.speakers[1] == speaker.slug and page.speakers[1] != blank %}
+      <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+    {% endif %}
+    {% if page.speakers[2] == speaker.slug and page.speakers[2] != blank %}
+      <a href="{{ site.baseurl }}/membros/{{ speaker.slug }}" title="Clique para ver o perfil de {{ speaker.name }} na Comunidade NetPonto">{{ speaker.name }}</a>
+    {% endif %}
+  {% endfor %}
 
+</p>
 {{ content }}
 
 {% unless page.videos_urls == blank %}
   <p>Video desta apresentacão:</p>
-  {% comment %}
-    TODO: resolver a questão do URL do video (não tem o ID para embebed é só watch)... quando passarmos para o HTML podemos usa a tag video e aí dá para usar este URL
-  {% endcomment %}
-  <iframe width="480" height="360" src="{{ page.videos_src }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe src="//www.youtube-nocookie.com/embed/{{ page.videos_watch }}?rel=0" frameborder="0" allowfullscreen></iframe>
+  <br>
   <a href="{{ page.videos_urls }}" title="Clique para ver o video desta sessão da Comunidade NetPonto">{{ page.videos_urls }}</a>
 {% endunless %}
 
