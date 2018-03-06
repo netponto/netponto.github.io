@@ -1,0 +1,26 @@
+---
+title: "Revista PROGRAMAR"
+permalink: /revista-programar/
+layout: page
+---
+<div id="content">
+  <h2>Revista PROGRAMAR</h2>
+  <div class="paragraph" style="text-align: left; display: block; font-size:1.20em;">
+  A Revista PROGRAMAR é um projecto iniciado e desenvolvido por membros da comunidade <a href="http://www.portugal-a-programar.org" title="Comunidade Portugal a Programar" rel="nofollow">Portugal-a-Programar</a>, com o objectivo de colmatar a falta de uma revista portuguesa sobre programação e de promover a criação de conteúdos relacionados com programação, em português.<br /><br />
+  <a href="http://www.portugal-a-programar.org" title="Comunidade Portugal a Programar" rel="nofollow"><img src="http://netponto.org/Content/uploads/revista-programar/logo-portugal-a-programar.png" alt="Portugal a Programar" /></a>
+  <br /><br />
+  A Comunidade NetPonto colabora oficialmente com a Revista PROGRAMAR desde Dezembro de 2010, e possui uma coluna exclusiva para a publicação de artigos escritos por membros da Comunidade NetPonto.<br />
+  <br />
+  A revista é publicada bimestralmente em formato electrónico (.pdf) e o download é gratuito.
+  </div>
+  <div class="paragraph" style="text-align: left; display: block; font-size:1.20em; margin: 0 auto;">Edições da Revista PROGRAMAR:<br /><br />
+    {% assign magazines = site.data.magazine-programar | sort: 'edition' | reverse %}
+      {% for magazine in magazines %}
+      <div style="width:20%; max-width:20%; display: inline-block; vertical-align: top; padding:5px;text-align: center;">
+        <a href="{{ magazine.url }}" title="Revista PROGRAMAR: {{ magazine.edition }}ª Edição - {{ magazine.published }}"><img src="{{ magazine.img_url }}" alt="capa Revista PROGRAMAR: {{ magazine.edition }}ª Edição - {{ magazine.published }}" style="margin: 10px; padding:10px; background-color:#ebebeb; border:1px solid #ccc; text-align: center; vertical-align: midle; width:70%;" />
+          <span style="display:inline-block; font-size:0.8em; text-align: center; vertical-align: midle;">{{ magazine.published }}</span>
+        </a>
+      </div>
+      {% endfor %}
+  </div>
+</div>
