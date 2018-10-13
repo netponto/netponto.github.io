@@ -1,12 +1,12 @@
 # [NetPonto](http://netponto.org)
 -----
 
-## Project
+## Project 
 
 1st phase - Migrate actual website to Jekyll (not touching HTML and CSS)  
 2nd phase - Create a responsive website (HTML5 & CSS3)  
 
-### Naming variables definitions
+## Naming variables definitions 
 
 – Use camelCase for Liquid / Jekyll and Javascript's variables (and IDs)  
 – Use underscore separation for YAML's variables  
