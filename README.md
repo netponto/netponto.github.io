@@ -11,12 +11,14 @@ Naming variables definitions:
 
 -----
 
+# How to
+
 How to create a new:
-– Meeting: Go to my_collections/meetings/meeting-template.md and insert all the details of a new meeting (don't forget to save as the-name-of-the-meeting on the right folder meeting's number).
-– Session: Go to my_collections/sessions/session-template.md and insert all the details of a new meeting (don't forget to save as the-name-of-the-session on the right folder meeting's number).
-– Event: Go to my_collections/events/event-template.md and insert all the details of a new event (don't forget to save as the-name-of-the-event).
-– Meeting venue: Go to data/meeting-venues.yml and create (or update) all the details of a new venue.
-– Sponsor: Go to data/sponsors-list.yml and create (or update) all the details of a new sponsor.
+– Meeting: Go to my_collections/meetings/meeting-template.md and insert all the details of a new meeting (don't forget to save as the-name-of-the-meeting on the right folder meeting's number). 
+– Session: Go to my_collections/sessions/session-template.md and insert all the details of a new meeting (don't forget to save as the-name-of-the-session on the right folder meeting's number). 
+– Event: Go to my_collections/events/event-template.md and insert all the details of a new event (don't forget to save as the-name-of-the-event). 
+– Meeting venue: Go to data/meeting-venues.yml and create (or update) all the details of a new venue. 
+– Sponsor: Go to data/sponsors-list.yml and create (or update) all the details of a new sponsor. 
 
 ## Installation
 
