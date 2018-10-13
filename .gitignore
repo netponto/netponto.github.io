@@ -9,3 +9,7 @@ Thumbs.db
 #Ignore metadata created by OSX
 .DS_Store
 ._*
+
+# Ignore node stuff
+package-lock.json
+node_modules/

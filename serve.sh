@@ -6,3 +6,4 @@ bundle exec jekyll serve --port 4096 --watch --incremental --trace --config _con
 
 echo "cleaning up..."
 rm -Rf _site
+

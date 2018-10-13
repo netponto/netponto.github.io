@@ -6,7 +6,7 @@ PROJECT:
 
 Naming variables definitions:
 – Use camelCase for Liquid / Jekyll and Javascript's variables (and IDs)
-– Use underscore separation for YMAL's variables
+– Use underscore separation for YAML's variables
 – Use hyphen to CSS classes, markdown files' titles, etc.
 
 -----
@@ -17,3 +17,11 @@ How to create a new:
 – Event: Go to my_collections/events/event-template.md and insert all the details of a new event (don't forget to save as the-name-of-the-event).
 – Meeting venue: Go to data/meeting-venues.yml and create (or update) all the details of a new venue.
 – Sponsor: Go to data/sponsors-list.yml and create (or update) all the details of a new sponsor.
+
+## Installation
+
+Use `npm install` to install all packages.
+
+## Build
+
+To create a new release just type `gulp` in the terminal.
