@@ -27,9 +27,9 @@ var AUTOPREFIXER_BROWSERS = [
 
 var path = {
     site: '_site',
-    css: '_site/css',
-    js: '_site/js',
-    img: '_site/img'
+    css: '_site/assets/css',
+    js: '_site/assets/js',
+    img: '_site/assets/img'
 };
 
 gulp.task('styles', function () {
@@ -53,6 +53,7 @@ gulp.task('pages', function () {
             collapseWhitespace: true,
             removeComments: true
         }))
+        .on('error', gutil.log)
         .pipe(gulp.dest(path.site));
 });
 
