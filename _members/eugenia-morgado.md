@@ -1,7 +1,8 @@
 ---
 name: Eugénia Morgado
-member_since: 2012-03-23 14:34:58 +0100
-facebook_username: eugenia.morgado
-gravatar_email_hash: 53d8973d8cfa2bcc5eb3cd31f5e0c52b
+member_since: 23/03/2012 14:34:58
+facebook_username: http://www.facebook.com/eugenia.morgado
+is_microsoft_mvp: false
+is_microsoft_msft: false
 redirect_from: /membro/eugenia-morgado/
 ---
