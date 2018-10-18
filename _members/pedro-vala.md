@@ -1,6 +1,7 @@
 ---
 name: Pedro Vala
-member_since: 2014-12-09 13:03:21 +0100
-gravatar_email_hash: 7e0f3111d9b7ada89adc559b7ccbe706
+member_since: 09/12/2014 13:03:21
+is_microsoft_mvp: false
+is_microsoft_msft: false
 redirect_from: /membro/pedro-vala/
 ---

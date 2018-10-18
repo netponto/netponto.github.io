@@ -1,8 +1,9 @@
 ---
 name: Sérgio Amendoeira
-member_since: 2010-05-04 22:46:33 +0100
-linkedin_username: sergioamendoeira
-facebook_username: sergio.amendoeira
-gravatar_email_hash: a7270e87d3cad42257c2e5d27f98796f
+member_since: 04/05/2010 21:46:33
+linkedin_username: http://pt.linkedin.com/in/sergioamendoeira
+facebook_username: http://www.facebook.com/sergio.amendoeira
+is_microsoft_mvp: false
+is_microsoft_msft: false
 redirect_from: /membro/sergio-amendoeira/
 ---
