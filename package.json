@@ -1,0 +1,25 @@
+{
+  "name": "netponto-org",
+  "version": "1.0.0",
+  "description": "Comunidade NetPonto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netponto/netponto.github.io.git"
+  },
+  "author": "Comunidade NetPonto",
+  "homepage": "https://netponto.github.io/",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-run-command": "^0.0.9",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.2.1",
+    "gulp-run": "^1.7.1",
+    "gulp-imagemin": "^4.1.0"
+  }
+}

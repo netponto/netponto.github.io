@@ -1,11 +1,12 @@
 ---
 name: Carlos Guedes
-member_since: 2012-03-23 14:34:58 +0100
-blog_url: http://cguedes.wordpress.com
-github_username: cguedes
-twitter_username: cguedes
-linkedin_username: cguedes
-facebook_username: cmmguedes
-gravatar_email_hash: a41abb7ba6113d46b4711ade3ff9c518
+member_since: 23/03/2012 14:34:58
+blog_url: http://cguedes.wordpress.com/
+twitter_username: http://twitter.com/cguedes
+linkedin_username: http://pt.linkedin.com/in/cguedes
+facebook_username: http://www.facebook.com/cmmguedes
+github_username: http://github.com/cguedes
+is_microsoft_mvp: false
+is_microsoft_msft: false
 redirect_from: /membro/cguedes/
 ---

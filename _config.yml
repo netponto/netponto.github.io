@@ -67,6 +67,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - serve.sh
+  - package-lock.json
+  - package.json
+  - node_modules/
+  - gulpfile.js
 
 show_drafts: false
 future: false

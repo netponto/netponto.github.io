@@ -1,6 +1,7 @@
 ---
 name: Jorge Gonçalves
-member_since: 2012-12-03 13:34:25 +0100
-gravatar_email_hash: 29f3a6eb6719b20af0e977d0bc0eee71
+member_since: 03/12/2012 13:34:25
+is_microsoft_mvp: false
+is_microsoft_msft: false
 redirect_from: /membro/jorge-goncalves/
 ---
