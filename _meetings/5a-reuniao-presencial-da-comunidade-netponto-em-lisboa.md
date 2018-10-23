@@ -1,5 +1,5 @@
 ---
-title: "5ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "5ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2009-12-12
 start_time: 09:30
 end_time: 12:45

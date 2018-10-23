@@ -1,5 +1,5 @@
 ---
-title: "8ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "8ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2015-11-28
 start_time: 09:45
 end_time: 13:30

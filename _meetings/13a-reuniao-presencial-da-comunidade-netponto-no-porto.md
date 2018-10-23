@@ -1,5 +1,5 @@
 ---
-title: "13ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "13ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2016-11-12
 start_time: 09:45
 end_time: 12:30

@@ -1,5 +1,5 @@
 ---
-title: "17ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "17ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2017-09-09
 start_time: 10:00
 end_time: 12:30

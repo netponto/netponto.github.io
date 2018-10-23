@@ -1,5 +1,5 @@
 ---
-title: "21ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "21ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2018-04-07
 start_time: 09:45
 end_time: 13:30

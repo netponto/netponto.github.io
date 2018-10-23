@@ -1,5 +1,5 @@
 ---
-title: "61ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "61ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2016-06-18
 start_time: 09:45
 end_time: 13:30

@@ -1,5 +1,5 @@
 ---
-title: "78ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "78ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2018-09-15
 start_time: 09:45
 end_time: 13:30

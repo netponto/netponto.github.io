@@ -1,5 +1,5 @@
 ---
-title: "3º Community Morning em Lisboa""
+title: "3º Community Morning em Lisboa"
 date: 2015-09-19
 start_time: 09:45
 end_time: 13:30

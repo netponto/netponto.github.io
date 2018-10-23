@@ -1,5 +1,5 @@
 ---
-title: "64ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "64ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2016-10-22
 start_time: 09:45
 end_time: 13:30

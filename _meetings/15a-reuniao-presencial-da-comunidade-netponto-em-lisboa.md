@@ -1,5 +1,5 @@
 ---
-title: "15ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "15ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2010-10-23
 start_time: 09:30
 end_time: 13:30

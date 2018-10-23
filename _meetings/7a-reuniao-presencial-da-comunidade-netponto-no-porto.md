@@ -1,5 +1,5 @@
 ---
-title: "7ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "7ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2015-09-26
 start_time: 09:45
 end_time: 13:30

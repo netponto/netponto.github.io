@@ -1,5 +1,5 @@
 ---
-title: "1ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "1ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2010-03-27
 start_time: 14:00
 end_time: 17:45

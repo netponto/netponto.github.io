@@ -1,5 +1,5 @@
 ---
-title: "11ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "11ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2010-06-19
 start_time: 09:30
 end_time: 13:30

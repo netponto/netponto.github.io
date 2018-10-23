@@ -1,5 +1,5 @@
 ---
-title: "63ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "63ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2016-09-24
 start_time: 09:45
 end_time: 13:30

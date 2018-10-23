@@ -1,5 +1,5 @@
 ---
-title: "11ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "11ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2016-07-16
 start_time: 09:45
 end_time: 12:30

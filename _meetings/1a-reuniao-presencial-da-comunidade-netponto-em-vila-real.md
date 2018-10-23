@@ -1,5 +1,5 @@
 ---
-title: "1ª Reunião Presencial da Comunidade NetPonto em Vila Real""
+title: "1ª Reunião Presencial da Comunidade NetPonto em Vila Real"
 date: 2011-02-12
 start_time: 13:40
 end_time: 19:10

@@ -1,5 +1,5 @@
 ---
-title: "4ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "4ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2013-11-30
 start_time: 14:00
 end_time: 18:00

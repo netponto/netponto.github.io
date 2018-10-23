@@ -1,5 +1,5 @@
 ---
-title: "35ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "35ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2013-01-26
 start_time: 09:45
 end_time: 13:30

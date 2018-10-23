@@ -1,5 +1,5 @@
 ---
-title: "1ª Reunião Presencial da Comunidade NetPonto em Braga""
+title: "1ª Reunião Presencial da Comunidade NetPonto em Braga"
 date: 2016-02-20
 start_time: 09:30
 end_time: 12:30

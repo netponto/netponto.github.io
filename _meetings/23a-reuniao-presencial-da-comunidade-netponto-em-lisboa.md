@@ -1,5 +1,5 @@
 ---
-title: "23ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "23ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2011-09-24
 start_time: 09:45
 end_time: 17:20

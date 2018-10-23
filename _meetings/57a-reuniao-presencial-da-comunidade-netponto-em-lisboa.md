@@ -1,5 +1,5 @@
 ---
-title: "57ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "57ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2015-10-24
 start_time: 09:45
 end_time: 13:10

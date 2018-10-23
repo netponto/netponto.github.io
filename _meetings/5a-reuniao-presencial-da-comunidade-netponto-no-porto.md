@@ -1,5 +1,5 @@
 ---
-title: "5ª Reunião Presencial da Comunidade NetPonto no Porto""
+title: "5ª Reunião Presencial da Comunidade NetPonto no Porto"
 date: 2014-05-24
 start_time: 14:00
 end_time: 18:00

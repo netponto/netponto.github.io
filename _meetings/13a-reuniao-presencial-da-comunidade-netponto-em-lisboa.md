@@ -1,5 +1,5 @@
 ---
-title: "13ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "13ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2010-08-14
 start_time: 09:30
 end_time: 13:30

@@ -1,5 +1,5 @@
 ---
-title: "50ª Reunião Presencial da Comunidade NetPonto em Lisboa""
+title: "50ª Reunião Presencial da Comunidade NetPonto em Lisboa"
 date: 2014-11-22
 start_time: 09:45
 end_time: 17:15
