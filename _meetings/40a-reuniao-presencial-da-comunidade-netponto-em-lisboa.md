@@ -1,5 +1,5 @@
 ---
-title: 40ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "40ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2013-07-27
 start_time: 09:45
 end_time: 13:30

@@ -1,5 +1,5 @@
 ---
-title: 6ª Reunião Presencial da Comunidade NetPonto em Coimbra
+title: "6ª Reunião Presencial da Comunidade NetPonto em Coimbra""
 date: 2015-06-27
 start_time: 09:45
 end_time: 13:30

@@ -1,5 +1,5 @@
 ---
-title: 14ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "14ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2010-09-18
 start_time: 09:00
 end_time: 18:30

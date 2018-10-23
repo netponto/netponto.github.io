@@ -1,5 +1,5 @@
 ---
-title: 18ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "18ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2011-03-26
 start_time: 09:30
 end_time: 13:30

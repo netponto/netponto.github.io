@@ -1,5 +1,5 @@
 ---
-title: 3ª Reunião Presencial da Comunidade NetPonto no Porto
+title: "3ª Reunião Presencial da Comunidade NetPonto no Porto""
 date: 2013-03-09
 start_time: 14:15
 end_time: 18:00

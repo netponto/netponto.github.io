@@ -1,5 +1,5 @@
 ---
-title: 10ª Reunião Presencial da Comunidade NetPonto no Porto
+title: "10ª Reunião Presencial da Comunidade NetPonto no Porto""
 date: 2016-04-02
 start_time: 09:45
 end_time: 12:30

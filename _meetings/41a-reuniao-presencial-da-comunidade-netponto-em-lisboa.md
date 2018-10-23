@@ -1,5 +1,5 @@
 ---
-title: 4º Aniversário na 41ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "4º Aniversário na 41ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2013-09-21
 start_time: 09:45
 end_time: 13:30

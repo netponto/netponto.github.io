@@ -1,5 +1,5 @@
 ---
-title: Sessão Especial NetPonto: PowerPivot com Alberto Ferrari
+title: "Sessão Especial NetPonto: PowerPivot com Alberto Ferrari""
 date: 2012-02-13
 start_time: 19:00
 end_time: 21:30

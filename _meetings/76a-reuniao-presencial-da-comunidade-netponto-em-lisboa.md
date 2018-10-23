@@ -1,5 +1,5 @@
 ---
-title: 76ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "76ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2018-04-07
 start_time: 09:45
 end_time: 13:30

@@ -1,5 +1,5 @@
 ---
-title: 1ª Community Morning Sharepoint.PT e NetPonto
+title: "1ª Community Morning Sharepoint.PT e NetPonto""
 date: 2014-06-21
 start_time: 09:45
 end_time: 13:30

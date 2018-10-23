@@ -1,5 +1,5 @@
 ---
-title: 16ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "16ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2010-12-11
 start_time: 09:30
 end_time: 13:30

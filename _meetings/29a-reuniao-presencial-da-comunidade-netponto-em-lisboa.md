@@ -1,5 +1,5 @@
 ---
-title: 29ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "29ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2012-05-26
 start_time: 09:45
 end_time: 13:30

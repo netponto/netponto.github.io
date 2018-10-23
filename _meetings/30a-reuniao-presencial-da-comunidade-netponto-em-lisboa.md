@@ -1,5 +1,5 @@
 ---
-title: 30ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "30ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2012-06-16
 start_time: 09:45
 end_time: 13:30

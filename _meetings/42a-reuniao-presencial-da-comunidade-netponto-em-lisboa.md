@@ -1,5 +1,5 @@
 ---
-title: 42ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "42ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2013-10-19
 start_time: 09:45
 end_time: 13:30

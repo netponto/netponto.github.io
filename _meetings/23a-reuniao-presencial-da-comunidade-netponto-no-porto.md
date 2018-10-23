@@ -1,5 +1,5 @@
 ---
-title: 23ª Reunião Presencial da Comunidade NetPonto no Porto
+title: "23ª Reunião Presencial da Comunidade NetPonto no Porto""
 date: 2018-10-13
 start_time: 09:45
 end_time: 12:30

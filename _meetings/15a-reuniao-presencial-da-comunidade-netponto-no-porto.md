@@ -1,5 +1,5 @@
 ---
-title: 15ª Reunião Presencial da Comunidade NetPonto no Porto
+title: "15ª Reunião Presencial da Comunidade NetPonto no Porto""
 date: 2017-04-08
 start_time: 09:45
 end_time: 12:30

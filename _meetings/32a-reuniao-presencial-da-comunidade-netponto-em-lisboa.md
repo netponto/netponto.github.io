@@ -1,5 +1,5 @@
 ---
-title: 32ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "32ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2012-08-25
 start_time: 09:45
 end_time: 13:30

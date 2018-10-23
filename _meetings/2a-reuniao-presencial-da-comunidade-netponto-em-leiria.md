@@ -1,5 +1,5 @@
 ---
-title: 2ª Reunião Presencial da Comunidade NetPonto em Leiria
+title: "2ª Reunião Presencial da Comunidade NetPonto em Leiria""
 date: 2018-02-24
 start_time: 09:45
 end_time: 12:30

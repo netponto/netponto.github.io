@@ -1,5 +1,5 @@
 ---
-title: 2ª Reunião Presencial da Comunidade NetPonto no Porto
+title: "2ª Reunião Presencial da Comunidade NetPonto no Porto""
 date: 2012-04-14
 start_time: 13:45
 end_time: 17:30

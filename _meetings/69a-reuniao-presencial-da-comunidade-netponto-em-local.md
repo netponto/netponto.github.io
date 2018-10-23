@@ -1,5 +1,5 @@
 ---
-title: 69ª Reunião Presencial da Comunidade NetPonto em Lisboa: Festa de lançamento do Visual Studio 2017
+title: "69ª Reunião Presencial da Comunidade NetPonto em Lisboa: Festa de lançamento do Visual Studio 2017""
 date: 2017-04-29
 start_time: 09:45
 end_time: 13:30

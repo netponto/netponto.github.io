@@ -1,5 +1,5 @@
 ---
-title: 8ª Reunião Presencial da Comunidade NetPonto em Lisboa
+title: "8ª Reunião Presencial da Comunidade NetPonto em Lisboa""
 date: 2010-03-20
 start_time: 09:30
 end_time: 12:45

@@ -1,5 +1,5 @@
 ---
-title: 1ª Reunião Presencial da Comunidade NetPonto em Aveiro
+title: "1ª Reunião Presencial da Comunidade NetPonto em Aveiro""
 date: 2016-05-07
 start_time: 09:45
 end_time: 12:30

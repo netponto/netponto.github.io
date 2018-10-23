@@ -1,5 +1,5 @@
 ---
-title: 1ª Reunião Presencial da Comunidade NetPonto em Leiria
+title: "1ª Reunião Presencial da Comunidade NetPonto em Leiria""
 date: 2017-10-21
 start_time: 09:45
 end_time: 12:30

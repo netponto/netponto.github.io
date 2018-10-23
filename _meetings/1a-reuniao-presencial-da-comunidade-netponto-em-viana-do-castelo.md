@@ -1,5 +1,5 @@
 ---
-title: 1ª Reunião Presencial da Comunidade NetPonto em Viana do Castelo
+title: "1ª Reunião Presencial da Comunidade NetPonto em Viana do Castelo""
 date: 2012-07-14
 start_time: 09:45
 end_time: 18:00

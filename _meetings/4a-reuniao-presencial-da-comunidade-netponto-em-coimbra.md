@@ -1,5 +1,5 @@
 ---
-title: 4ª Reunião Presencial da Comunidade NetPonto em Coimbra
+title: "4ª Reunião Presencial da Comunidade NetPonto em Coimbra""
 date: 2012-02-11
 start_time: 09:45
 end_time: 13:30
