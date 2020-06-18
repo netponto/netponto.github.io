@@ -4,7 +4,7 @@ date: 2018-04-01
 start_time: 9:45:00 +0100
 end_time: 13:30:00 +0100
 sessions: ["Introdução ao Windows Communication Foundation (WCF)", "Node.js em Windows", "Como deixar de fazer \"copy and paste\" entre Windows Store e Windows Phone Apps", "ASP.NET 5", "C# 6.0 April 2014 Preview"]
-speakers: ["caioproiete", "jorgeacf","saramgsilva", "brunomlopes", "paulomorgado"]
+speakers: ["augustoproiete", "jorgeacf","saramgsilva", "brunomlopes", "paulomorgado"]
 venue: microsoft-lx
 gold-sponsor: ["microsoft", "ist", "novabase", "upt", "nediup"]
 silver-sponsor: ["telerik","ciclo", "pluralsight"]

@@ -3,7 +3,7 @@ title: "Novidades do .NET Framework 4.0 para C# e VB.NET"
 date: 2010-03-20
 start_time: 11:30:00 +0100
 end_time: 12:45:00 +0100
-speakers: ["paulomorgado", "caioproiete"]
+speakers: ["paulomorgado", "augustoproiete"]
 slides_urls: ["http://www.slideshare.net/netponto/novidades-do-csharp-40-3581198"]
 meeting: 8a-reuniao-presencial-da-comunidade-netponto-em-lisboa
 redirect_from: /sessao/novidades-do-net-framework-4-0-para-csharp-e-vb-net/

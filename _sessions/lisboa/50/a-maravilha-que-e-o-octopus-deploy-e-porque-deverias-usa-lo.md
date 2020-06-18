@@ -3,7 +3,7 @@ title: "A maravilha que é o Octopus Deploy, e porque deverias usá-lo (remota)"
 date: 2014-11-22
 start_time: 14:30:00 +0100
 end_time: 16:00:00 +0100
-speakers: ["caioproiete"]
+speakers: ["augustoproiete"]
 videos_urls: ["https://www.youtube.com/watch?v=yQbLl6cCNVU"]
 videos_src: ["https://www.youtube.com/embed/yQbLl6cCNVU"]
 meeting: 50a-reuniao-presencial-da-comunidade-netponto-em-lisboa
@@ -15,6 +15,6 @@ Lembra-te da última vez que tiveste de interromper as tuas férias porque ningu
 
 E quantas vezes tivestes (ou tiveram) de abortar um deployment porque aquele documento Word que deram-te estava completamente desactualizado? Nem mesmo o nome dos servidores eram os mesmos!
 
-Se te identificas com pelo menos um dos cenarios acima, esta apresentação é para ti. Em 90 minutos o Caio Proiete vai mostrar-te como podes usar o OctopusDeploy para automatizar e documentar os processos de deployment das tuas aplicações, para teres menos surpresas, e poderes tirar férias como uma pessoa normal.
+Se te identificas com pelo menos um dos cenarios acima, esta apresentação é para ti. Em 90 minutos o C. Augusto Proiete vai mostrar-te como podes usar o OctopusDeploy para automatizar e documentar os processos de deployment das tuas aplicações, para teres menos surpresas, e poderes tirar férias como uma pessoa normal.
 
-**Nota**: Esta apresentação será feita remotamente, visto o Caio Proiete não estar em Portugal.
+**Nota**: Esta apresentação será feita remotamente, visto o C. Augusto Proiete não estar em Portugal.
